@@ -1,345 +1,345 @@
-id,organisation,records_lost,month,year,sector,method,data_sensitivity,source_name,city,country,latitude,longitude,coordinates
-1,Plex,15000000,Aug,2022,web,hacked,1,Ars technica,Los Gatos,USA,37.235,-121.9629,"[37.235, -121.9629]"
-2,Twitter,5400000,Dec,2021,web,hacked,2,Bleeping Computer,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]"
-148,Twitter,330000000, May ,2018,tech,poor security,1,Reuters,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]"
-273,Twitter,250000, Feb ,2013,web,hacked,1,CNN,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]"
-3,Shanghai Police,500000000,Jul,2022,financial,hacked,5,The Register,Shanghai,China,31.2304,121.4737,"[31.2304, 121.4737]"
-4,"City of Amagasaki, Japan",500000,Jun,2022,government,accident,3,BBC,Amagasaki,Japan,34.7303,135.5795,"[34.7303, 135.5795]"
-6,Heroku,50000,Apr,2022,tech,hacked,2,Bleeping Computer,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]"
-7,Mailchimp,106586,Apr,2022,tech,hacked,1,Bleeping Computer,Atlanta,USA,33.749,-84.388,"[33.749, -84.388]"
-8,PayHere,1580249,Mar,2022,financial,hacked,3,Pay Here,Colombo,Sri Lanka,6.9271,79.8612,"[6.9271, 79.8612]"
-9,CDEK,18218203,Mar,2022,retail,hacked,3,Have I Been Pwned,Novosibirsk,Russia,55.0084,82.9357,"[55.0084, 82.9357]"
-10,Washington State Dpt of Licensing,257000,Feb,2022,government,hacked,3,Seattle Times,Olympia,USA,47.0379,-122.9007,"[47.0379, -122.9007]"
-11,Red Cross,500000,Jan,2022,NGO,hacked,4,Arsetechnia,Geneva,Switzerland,46.2044,6.1432,"[46.2044, 6.1432]"
-13,FlexBooker,3700000,Jan,2022,web,hacked,3,Bleeping Computer,Calgary,Canada,51.0447,-114.0719,"[51.0447, -114.0719]"
-14,LINE Pay,133000,Dec,2021,financial,poor security,2,The Register,Tokyo,Japan,35.682839,139.759455,"[35.682839, 139.759455]"
-15,Robinhood,5000937,Nov,2021,financial,hacked,2,Tech Crunch,Menlo Park,USA,37.4529,-122.1817,"[37.4529, -122.1817]"
-16,GoDaddy,1200000,Nov,2021,web,hacked,1,SEC,Scottsdale,USA,33.4942,-111.9261,"[33.4942, -111.9261]"
-17,Travelio,471376,Nov,2021,misc,hacked,2,HaveIBeenPwned,Jakarta,Indonesia,-6.2088,106.8456,"[-6.2088, 106.8456]"
-18,Acer,3000000,Oct,2021,tech,hacked,1,Hot Hardware,New Taipei City,Taiwan,25.0165,121.4629,"[25.0165, 121.4629]"
-19,Brewdog,200000,Oct,2021,retail,poor security,1,Tech Radar,Ellon,United Kingdom,57.3632,-2.0946,"[57.3632, -2.0946]"
-20,Nvidia,100000,Mar,2021,tech,hacked,2,CNN Business,Santa Clara,USA,37.3541,-121.9552,"[37.3541, -121.9552]"
-21,Okta,100000,Jan,2021,tech,hacked,1,The Verge,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]"
-22,Experian SA,24000000, Jul ,2020,web,accident,3,Uni of Hawaii,Johannesburg,South Africa,-26.2041,28.0473,"[-26.2041, 28.0473]"
-23,Royal Enfield,420873, Jan ,2020,transport,poor security,3,The Quint,Chennai,India,13.0827,80.2707,"[13.0827, 80.2707]"
-24,Avvo,4101101,Dec,2019,legal,hacked,1,HaveIBeenPwned,Seattle,USA,47.6062,-122.3321,"[47.6062, -122.3321]"
-26,Twitch,10000000,Oct,2021,gaming,hacked,4,BBC,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]"
-220,Twitch,10000000, Mar ,2015,health,hacked,1,Twitch,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]"
-27,Syniverse,500000000,Sep,2021,telecoms,hacked,4,Vice,Tampa,USA,27.9506,-82.4572,"[27.9506, -82.4572]"
-29,Neiman Marcus,4600000,Sep,2021,retail,hacked,3,Ars Technica,Dallas,USA,32.7767,-96.797,"[32.7767, -96.797]"
-244,Neiman Marcus,1100000, Jan ,2014,retail,hacked,2,NY Times,Dallas,USA,32.7767,-96.797,"[32.7767, -96.797]"
-30,Epik,15000000,Sep,2021,retail,hacked,5,Ars Technica,Sammamish,USA,47.6163,-122.0356,"[47.6163, -122.0356]"
-34,Estonian gov,280000,Jul,2021,government,hacked,4,News ERR,Tallinn,Estonia,59.437,24.7536,"[59.437, 24.7536]"
-35,Guntrader,111000,Jul,2021,retail,hacked,2,The Register,Chichester,United Kingdom,50.8376,-0.7747,"[50.8376, -0.7747]"
-36,Linkedin,700000000,Jul,2021,web,hacked,1,9 to 5 mac,Sunnyvale,USA,37.3688,-122.0363,"[37.3688, -122.0363]"
-37,VW,3300000,Jun,2021,transport,hacked,2,Reuters,Wolfsburg,Germany,52.4226,10.7865,"[52.4226, 10.7865]"
-38,MacDonalds,10000000,Jun,2021,retail,hacked,2,Wall St Journal,Chicago,USA,41.8781,-87.6298,"[41.8781, -87.6298]"
-39,Air India,4500000,May,2021,transport,hacked,2,Indian Express,New Delhi,India,28.6139,77.209,"[28.6139, 77.209]"
-40,Omiai dating app,1710000,May,2021,app,hacked,2,Japan Times,Tokyo,Japan,35.682839,139.759455,"[35.682839, 139.759455]"
-42,Peloton,3000000,May,2021,tech,poor security,2,Ars Technica,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-44,Park Mobile,21000000,Apr,2021,transport,hacked,2,Krebson Security,Atlanta,USA,33.749,-84.388,"[33.749, -84.388]"
-45,Ubiquiti,16000000,Feb,2021,tech,hacked,2,ZDNet,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-46,Meet Mindful,2240000,Feb,2021,tech,hacked,4,ZDnet,Denver,USA,39.7392,-104.9903,"[39.7392, -104.9903]"
-47,Experian Brazil,220000000,Feb,2021,finance,hacked,2,ZDNet,São Paulo,Brazil,-23.5505,-46.6333,"[-23.5505, -46.6333]"
-48,Gab,4000000, Mar ,2021,tech,hacked,3,Wired,Philadelphia,USA,39.9526,-75.1652,"[39.9526, -75.1652]"
-49,Star Alliance,16000000, Mar ,2021,transport,hacked,1,The Guardian,Frankfurt,Germany,50.1109,8.6821,"[50.1109, 8.6821]"
-50,Facebook,533000000, Mar ,2021,tech,hacked,1,Business Insider,Menlo Park,USA,37.4529,-122.1817,"[37.4529, -122.1817]"
-116,Facebook,419000000, Sep ,2019,web,poor security,2,Fast Company,Menlo Park,USA,37.4529,-122.1817,"[37.4529, -122.1817]"
-129,Facebook,50000000, Mar ,2018,web,hacked,1,Guardian,Menlo Park,USA,37.4529,-122.1817,"[37.4529, -122.1817]"
-158,Facebook,29000000, Oct ,2018,web,hacked,2,"Business Insider, Facebook",Menlo Park,USA,37.4529,-122.1817,"[37.4529, -122.1817]"
-284,Facebook,6000000, Jun ,2013,web,accident,1,Facebook,Menlo Park,USA,37.4529,-122.1817,"[37.4529, -122.1817]"
-51,Ledger,270000, Dec ,2020,finance,hacked,2,Bleeping Computer,Paris,France,48.8566,2.3522,"[48.8566, 2.3522]"
-52,T-mobile,200000, Dec ,2020,telecoms,hacked,1,Bleeping Computer,Bellevue,USA,47.6101,-122.2015,"[47.6101, -122.2015]"
-53,The Hospital Group,1000000, Dec ,2020,health,hacked,4,BBC,Manchester,United Kingdom,53.483,-2.2441,"[53.483, -2.2441]"
-54,SolarWinds,50000000, Dec ,2020,app,hacked,3,New York Times,Austin,USA,30.2672,-97.7431,"[30.2672, -97.7431]"
-55,Ho Mobile,2500000, Dec ,2020,telecoms,hacked,2,ZD Net,Rome,Italy,41.9028,12.4964,"[41.9028, 12.4964]"
-56,Spotify,500000, Dec ,2020,app,accident,1,Tech Crunch,Stockholm,Sweden,59.3293,18.0686,"[59.3293, 18.0686]"
-57,Drizly,2400000, Sep ,2020,app,hacked,2,Tech Crunch,Boston,USA,42.3601,-71.0589,"[42.3601, -71.0589]"
-58,GEDmatch,1400000, Sep ,2020,misc,hacked,5,New York Times,Lake Worth,USA,26.6168,-80.0684,"[26.6168, -80.0684]"
-59,Call of Duty / Activision,500000, Sep ,2020,gaming,hacked,1,Forbes,Santa Monica,USA,34.0194,-118.4912,"[34.0194, -118.4912]"
-60,Zhenhua,2400000, Sep ,2020,misc,accident,1,The Guardian,Shenzhen,China,22.5431,114.0579,"[22.5431, 114.0579]"
-62,Nintendo,300000, Apr ,2020,gaming,hacked,3,Tech Crunch,Kyoto,Japan,35.0116,135.7681,"[35.0116, 135.7681]"
-282,Nintendo,4000000, Jun ,2013,gaming,hacked,2,ZDNet,Kyoto,Japan,35.0116,135.7681,"[35.0116, 135.7681]"
-64,US Marshals Service,387000, May ,2020,government,hacked,2,NextGov,Arlington,USA,38.8783,-77.0687,"[38.8783, -77.0687]"
-66,EasyJet,9000000, May ,2020,transport,hacked,3,BBC,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]"
-67,Microsoft,250000000, Jan ,2020,web,poor security,1,Forbes,Redmond,USA,47.6739,-122.1215,"[47.6739, -122.1215]"
-68,Dutch Government,6900000, Mar ,2020,government,lost device,4,ZDNet,The Hague,Netherlands,52.0705,4.3007,"[52.0705, 4.3007]"
-69,Virgin Media,900000, Mar ,2020,retail,poor security,1,BBC ,Hook,United Kingdom,51.2778,-0.9614,"[51.2778, -0.9614]"
-70,Boots Advantage Card,150000, Mar ,2020,retail,hacked,1,Which,Nottingham,United Kingdom,52.9548,-1.1581,"[52.9548, -1.1581]"
-71,Tesco Clubcard,600000, Mar ,2020,retail,hacked,1,Tech Radar,Welwyn Garden City,United Kingdom,51.8061,-0.2062,"[51.8061, -0.2062]"
-72,Marriott Hotels,5200000, Mar ,2020,retail,inside job,2,Marriott,Bethesda,USA,38.9847,-77.0947,"[38.9847, -77.0947]"
-73,Zoom,500000, Apr ,2020,app,hacked,1,We Live Security,San Jose,USA,37.3541,-121.9552,"[37.3541, -121.9552]"
-74,Israeli government,6500000, Feb ,2020,government,poor security,2,NYTimes,Jerusalem,Israel,31.7683,35.2137,"[31.7683, 35.2137]"
-75,MGM Hotels,10600000, Feb ,2020,retail,hacked,2,ZDNet,Las Vegas,USA,36.1699,-115.1398,"[36.1699, -115.1398]"
-76,Buchbinder Car Rentals,5000000, Jan ,2020,transport,poor security,2,Teller Report,Regensburg,Germany,49.0134,12.1016,"[49.0134, 12.1016]"
-77,Wawa,30000000, Dec ,2019,retail,hacked,3,Krebs on Security,Wawa,USA,39.9607,-75.6055,"[39.9607, -75.6055]"
-78,Desjardins Group,4200000, Jun ,2019,finance,inside job,2,CBC,Lévis,Canada,46.8139,-71.208,"[46.8139, -71.208]"
-79,US Customs and Border Protection,100000, Jun ,2019,government,hacked,2,Washington Post,Washington,USA,38.8951,-77.0369,"[38.8951, -77.0369]"
-80,Quest Diagnostics,20000000, Jun ,2019,health,poor security,4,ZDNet,Secaucus,USA,40.7891,-74.0561,"[40.7891, -74.0561]"
-215,Quest Diagnostics,34000, Dec ,2016,health,hacked,4,Newsroom,Secaucus,USA,40.7891,-74.0561,"[40.7891, -74.0561]"
-81,Australian National University,200000, Jun ,2019,academic,hacked,4,Guardian,Canberra,Australia,-35.2809,149.13,"[-35.2809, 149.13]"
-82,Canva,139000000, May ,2019,web,hacked,2,ZDNet,Sydney,Australia,-33.8651,151.2099,"[-33.8651, 151.2099]"
-83,Chtrbox,49000000, May ,2019,misc,poor security,1,Techcrunch,Mumbai,India,19.076,72.8777,"[19.076, 72.8777]"
-85,Toyota,3100000, Apr ,2019,transport,hacked,2,Bleeping Computer,Toyota City,Japan,35.0806,137.1698,"[35.0806, 137.1698]"
-87,Vårdguiden,2700000, Feb ,2019,health,poor security,5,ComputerSweden,Stockholm,Sweden,59.3293,18.0686,"[59.3293, 18.0686]"
-88,Dubsmash,162000000, Feb ,2019,web,hacked,1,The Register,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-89,ShareThis,41000000, Feb ,2019,web,hacked,1,The Register,Palo Alto,USA,37.4419,-122.143,"[37.4419, -122.143]"
-90,HauteLook,28000000, Feb ,2019,retail,hacked,1,The Register,Los Angeles,USA,34.0522,-118.2437,"[34.0522, -118.2437]"
-91,Animoto,25000000, Feb ,2019,web,hacked,1,The Register,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-92,EyeEm,22000000, Feb ,2019,web,hacked,1,The Register,Berlin,Germany,52.52,13.405,"[52.52, 13.405]"
-93,8fit,20000000, Feb ,2019,web,hacked,1,The Register,Berlin,Germany,52.52,13.405,"[52.52, 13.405]"
-94,Whitepages,18000000, Feb ,2019,web,hacked,1,The Register,Seattle,USA,47.6062,-122.3321,"[47.6062, -122.3321]"
-95,Fotolog,16000000, Feb ,2019,web,hacked,1,The Register,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-96,Armor Games,11000000, Feb ,2019,gaming,hacked,1,The Register,Irvine,USA,33.6846,-117.8265,"[33.6846, -117.8265]"
-97,BookMate,8000000, Feb ,2019,web,hacked,1,The Register,Moscow,Russia,55.7558,37.6176,"[55.7558, 37.6176]"
-98,CoffeeMeetsBagel,6000000, Feb ,2019,web,hacked,1,The Register,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]"
-99,Artsy,1000000, Feb ,2019,web,hacked,1,The Register,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-100,DataCamp,700000, Feb ,2019,web,hacked,1,The Register,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-101,Ixigo,18000000, Feb ,2019,transport,poor security,1,Techcrunch,Gurugram,India,28.4595,77.0266,"[28.4595, 77.0266]"
-102,YouNow,40000000, Feb ,2019,web,hacked,1,Techcrunch,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-103,Houzz,57000000, Feb ,2019,retail,hacked,2,Techcrunch,Palo Alto,USA,37.4419,-122.143,"[37.4419, -122.143]"
-105,Coinmama,450000, Feb ,2019,finance,hacked,1,Techcrunch,Israel,Israel,31.7683,35.2137,"[31.7683, 35.2137]"
-106,Roll20,4000000, Feb ,2019,gaming,hacked,1,Techcrunch,Bellingham,USA,48.7519,-122.4787,"[48.7519, -122.4787]"
-107,Stronghold Kingdoms,5000000, Feb ,2019,gaming,hacked,1,Techcrunch,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]"
-108,Petflow,1000000, Feb ,2019,retail,poor security,1,Techcrunch,Miami,USA,25.7617,-80.1918,"[25.7617, -80.1918]"
-109,500px,14800000, Feb ,2019,web,hacked,2,PetaPixel,Toronto,Canada,43.65107,-79.347015,"[43.65107, -79.347015]"
-110,Blur,2400000, Jan ,2019,tech,accident,1,ZDNet,Boston,USA,42.3601,-71.0589,"[42.3601, -71.0589]"
-111,Blank Media Games,7600000, Jan ,2019,gaming,hacked,1,ZDNet,Boston,USA,42.3601,-71.0589,"[42.3601, -71.0589]"
-113,Bulgarian National Revenue Agency,5000000, Jul ,2019,government,hacked,2,ZDNet,Sofia,Bulgaria,42.6977,23.3219,"[42.6977, 23.3219]"
-114,Capital One,100000000, Jul ,2019,finance,hacked,3,Forbes,McLean,USA,38.9343,-77.1775,"[38.9343, -77.1775]"
-115,Suprema,27800000, Aug ,2019,tech,poor security,5,Guardian,Seoul,South Korea,37.5665,126.978,"[37.5665, 126.978]"
-117,DoorDash,4900000, Sep ,2019,transport,hacked,2,Techcrunch,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]"
-120,Click2Gov,300000, Dec ,2018,finance,hacked,3,Fortune,Lake Mary,USA,28.7577,-81.3389,"[28.7577, -81.3389]"
-121,SingHealth,1500000, Jul ,2018,health,hacked,4,Straits Times,Singapore,Singapore,1.3521,103.8198,"[1.3521, 103.8198]"
-122,GovPayNow.com,14000000, Sep ,2018,finance,poor security,2,Krebs on Security,Tallahassee,USA,30.4383,-84.2807,"[30.4383, -84.2807]"
-123,Cathay Pacific Airways,94000000, Oct ,2018,transport,hacked,3,ABC News,Hong Kong,Hong Kong,22.3193,114.1694,"[22.3193, 114.1694]"
-125,Google+,52500000, Dec ,2018,web,poor security,2,The Verge,Mountain View,USA,37.3861,-122.0839,"[37.3861, -122.0839]"
-126,Quora,100000000, Dec ,2018,web,hacked,1,NY Times,Mountain View,USA,37.3861,-122.0839,"[37.3861, -122.0839]"
-127,Marriott International,383000000, Nov ,2018,retail,hacked,3,"NY Times, CNET",Bethesda,USA,38.9847,-77.0947,"[38.9847, -77.0947]"
-128,NMBS,700000, Dec ,2018,transport,accident,2,Flanders Today,Brussels,Belgium,50.8503,4.3517,"[50.8503, 4.3517]"
-130,Panerabread,37000000, Apr ,2018,retail,poor security,2,"Krebsonsecurity, Medium",St. Louis,USA,38.627,-90.1994,"[38.627, -90.1994]"
-131,Dixons Carphone,10000000, Jun ,2018,telecoms,hacked,1,BBC,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]"
-132,MyHeritage,92283889, Jun ,2018,web,hacked,1,Bloomberg,Or Yehuda,Israel,32.0336,34.8574,"[32.0336, 34.8574]"
-133,Saks and Lord & Taylor,5000000, Apr ,2018,retail,hacked,3,NYTimes,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-134,Careem,14000000, Apr ,2018,app,hacked,2,Khaleej Times,Dubai,United Arab Emirates,25.276987,55.296249,"[25.276987, 55.296249]"
-136,British Airways,380000, Sep ,2018,transport,hacked,4,Guardian,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]"
-241,British Airways,10000, Mar ,2015,transport,hacked,1,The Guardian,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]"
-137,T-Mobile,2000000, Aug ,2018,telecoms,hacked,1,Motherboard,Bellevue,USA,47.6101,-122.2015,"[47.6101, -122.2015]"
-138,MyFitnessPal,150000000, Mar ,2018,app,hacked,1,Guardian,Baltimore,USA,39.2904,-76.6122,"[39.2904, -76.6122]"
-139,Helse Sør-Øst RHF,3000000, Feb ,2018,health,hacked,4,It Governance,Oslo,Norway,59.9139,10.7522,"[59.9139, 10.7522]"
-140,Nametests,120000000, Jun ,2018,app,poor security,1,Medium,Cologne,Germany,50.9375,6.9603,"[50.9375, 6.9603]"
-141,Ticketmaster,40000, Jun ,2018,web,hacked,3,BBC News,Beverly Hills,USA,34.0696,-118.4058,"[34.0696, -118.4058]"
-142,Firebase,100000000, Jun ,2018,app,poor security,5,Bleeping Computer,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]"
-143,Aadhaar,550000000, Mar ,2018,government,poor security,4,ZDNet,New Delhi,India,28.6139,77.209,"[28.6139, 77.209]"
-144,Grindr,3000000, Mar ,2018,app,poor security,3,NBC News,Los Angeles,USA,34.0522,-118.2437,"[34.0522, -118.2437]"
-145,Orbitz,880000, Mar ,2018,web,hacked,3,US News,Chicago,USA,41.8781,-87.6298,"[41.8781, -87.6298]"
-150,TicketFly,27000000, May ,2018,web,hacked,2,The Verge,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]"
-151,Amazon,5000000, Nov ,2018,retail,accident,1,Guardian,Seattle,USA,47.6062,-122.3321,"[47.6062, -122.3321]"
-152,Urban Massage,309000, Nov ,2018,app,poor security,2,Tech Crunch,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]"
-155,SKY Brasil,32000000, Nov ,2018,telecoms,poor security,1,Bleeping Computer,São Paulo,Brazil,-23.5505,-46.6333,"[-23.5505, -46.6333]"
-156,Vision Direct,16300, Nov ,2018,retail,hacked,4,BBC,Milan,Italy,45.4642,9.19,"[45.4642, 9.19]"
-157,Medicare & Medicaid,93689, Nov ,2018,health,hacked,2,HCA News,Baltimore,USA,39.2904,-76.6122,"[39.2904, -76.6122]"
-159,Newegg,45000000, Sep ,2018,retail,hacked,3,TechCrunch,City of Industry,USA,34.0197,-117.9587,"[34.0197, -117.9587]"
-161,Apollo,200000000, May ,2018,tech,poor security,1,Wired,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-162,Disqus,17500000, Dec ,2017,web,hacked,4,ZD Net,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-164,Yahoo,32000000, Mar ,2017,web,hacked,4,CNet,Sunnyvale,USA,37.3688,-122.0363,"[37.3688, -122.0363]"
-189,Yahoo,500000000, Sep ,2016,web,hacked,2,CNBC,Sunnyvale,USA,37.3688,-122.0363,"[37.3688, -122.0363]"
-269,Yahoo,550000000, Dec ,2013,web,hacked,2,"NY Times, BBC",Sunnyvale,USA,37.3688,-122.0363,"[37.3688, -122.0363]"
-165,Uber,57000000, Nov ,2017,app,hacked,1,Bloomberg,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]"
-222,Uber,50000, Feb ,2015,tech,poor security,1,TechCrunch,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]"
-166,Wonga,270000, Apr ,2017,finance,hacked,4,The Guardian,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]"
-167,Snapchat,1700000, Apr ,2017,app,hacked,1,BGR,Santa Monica,USA,34.0194,-118.4912,"[34.0194, -118.4912]"
-169,CEX,2000000, Aug ,2017,retail,accident,3,PC Mag,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]"
-171,Cellebrite,3000000, Jan ,2017,tech,hacked,2,Vice,Petah Tikva,Israel,32.0853,34.7818,"[32.0853, 34.7818]"
-173,Swedish Transport Agency,3000000, Jul ,2017,government,poor security,5,The Local,Borlänge,Sweden,60.4849,15.4251,"[60.4849, 15.4251]"
-174,Hong Kong Registration & Electoral Office,3700000, Mar ,2017,government,lost device,2,SCMP,Hong Kong,Hong Kong,22.3193,114.1694,"[22.3193, 114.1694]"
-177,Bell,1900000, May ,2017,telecoms,hacked,1,CBC,Montreal,Canada,45.5017,-73.5673,"[45.5017, -73.5673]"
-178,Zomato,17000000, May ,2017,web,hacked,4,HackRead,Gurugram,India,28.4595,77.0266,"[28.4595, 77.0266]"
-179,Imgur,1700000, May ,2017,app,hacked,4,Imgur,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]"
-180,TIO Networks,1600000, Dec ,2017,finance,hacked,4,Bleeping Computer,Vancouver,Canada,49.2827,-123.1207,"[49.2827, -123.1207]"
-183,Instagram,6000000, Sep ,2017,web,hacked,1,The Verge,Menlo Park,USA,37.4529,-122.1817,"[37.4529, -122.1817]"
-184,Viacom,3000000, Sep ,2017,web,hacked,4,The Hacker News,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-185,Equifax,143000000, Sep ,2017,finance,hacked,4,UK Gov,Atlanta,USA,33.749,-84.388,"[33.749, -84.388]"
-187,LinkedIn,117000000, May ,2016,web,hacked,1,CNN,Sunnyvale,USA,37.3688,-122.0363,"[37.3688, -122.0363]"
-188,Tumblr,65000000, May ,2016,web,hacked,1,Vice,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-190,Mossack Fonseca,11500000, Apr ,2016,misc,hacked,5,PanamaPapers,Panama City,Panama,8.9824,-79.5199,"[8.9824, -79.5199]"
-191,Philippines’ Commission on Elections,55000000, Apr ,2016,government,hacked,5,Trend Micro,Manila,Philippines,14.5995,120.9842,"[14.5995, 120.9842]"
-192,Syrian government,274477, Apr ,2016,government,hacked,1,Softpedia,Damascus,Syria,33.5138,36.2765,"[33.5138, 36.2765]"
-193,Minecraft,7000000, Apr ,2016,gaming,hacked,1,BBC,Stockholm,Sweden,59.3293,18.0686,"[59.3293, 18.0686]"
-195,Banner Health,3700000, Aug ,2016,health,hacked,3,Healthcare Informatics,Phoenix,USA,33.4484,-112.074,"[33.4484, -112.074]"
-196,Mail. ru,25000000, Aug ,2016,web,hacked,2,ZD Net,Moscow,Russia,55.7558,37.6176,"[55.7558, 37.6176]"
-197,PayAsUGym,300000, Dec ,2016,web,hacked,1,BBC News,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]"
-198,Lynda.com,9500000, Dec ,2016,web,hacked,1,Neowin,Carpinteria,USA,34.3989,-119.5185,"[34.3989, -119.5185]"
-200,Wendy's,1025, Jul ,2016,retail,hacked,3,Forbes,Dublin,USA,37.7022,-121.9358,"[37.7022, -121.9358]"
-203,World Check,2200000, Jun ,2016,misc,poor security,3,The Stack,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]"
-204,Mutuelle Generale de la Police,112000, Jun ,2016,health,inside job,5,BBC News,Paris,France,48.8566,2.3522,"[48.8566, 2.3522]"
-205,VK,171000000, Jun ,2016,web,hacked,4,Motherboard,Saint Petersburg,Russia,59.9343,30.3351,"[59.9343, 30.3351]"
-206,KM.ru & Nival,1500000, Mar ,2016,web,hacked,4,Motherboard,Moscow,Russia,55.7558,37.6176,"[55.7558, 37.6176]"
-207,Fling,40000000, May ,2016,web,hacked,4,IBTimes,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]"
-208,MySpace,164000000, May ,2016,web,hacked,1,Vice,Beverly Hills,USA,34.0696,-118.4058,"[34.0696, -118.4058]"
-209,Three,130000, Nov ,2016,telecoms,hacked,2,Three,Maidenhead,United Kingdom,51.522,-0.72,"[51.522, -0.72]"
-210,Red Cross Blood Service,550000, Oct ,2016,health,accident,4,ABC News,Melbourne,Australia,-37.8136,144.9631,"[-37.8136, 144.9631]"
-212,Dailymotion,85200000, Dec ,2016,web,hacked,1,ZDNet,Paris,France,48.8566,2.3522,"[48.8566, 2.3522]"
-213,Weebly,43000000, Oct ,2016,web,hacked,4,Tech Crunch,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]"
-214,Interpark,10000000, Jul ,2016,web,hacked,2,NY times,Seoul,South Korea,37.5665,126.978,"[37.5665, 126.978]"
-216,Friend Finder Network,412000000, Nov ,2016,web,hacked,1,ZDNet,Campbell,USA,37.2872,-121.949,"[37.2872, -121.949]"
-217,Brazzers,790724, Sep ,2016,web,hacked,4,Vice,Luxembourg,Luxembourg,49.6116,6.1319,"[49.6116, 6.1319]"
-218,ClixSense,6600000, Sep ,2016,web,hacked,5,Digital trends,Yuba City,USA,39.1404,-121.6169,"[39.1404, -121.6169]"
-219,Carefirst,1100000, May ,2015,health,hacked,1,Krebs on Security,Baltimore,USA,39.2904,-76.6122,"[39.2904, -76.6122]"
-221,Premera,11000000, Mar ,2015,health,hacked,5,Computer Weekly,Mountlake Terrace,USA,47.7915,-122.3076,"[47.7915, -122.3076]"
-223,Deep Root Analytics,198000000, Dec ,2015,web,poor security,2,"Reuters, UpGuard",Washington,USA,38.8951,-77.0369,"[38.8951, -77.0369]"
-225,Invest Bank,40000, Dec ,2015,finance,hacked,4,Daily Dot ,Sharjah,United Arab Emirates,25.3463,55.4209,"[25.3463, 55.4209]"
-226,Sanrio,3300000, Dec ,2015,web,poor security,2,CSO Online,Tokyo,Japan,35.682839,139.759455,"[35.682839, 139.759455]"
-227,VTech,6400000, Dec ,2015,web,hacked,5,The Guardian,Hong Kong,Hong Kong,22.3193,114.1694,"[22.3193, 114.1694]"
-228,Hacking Team,500000, Jul ,2015,web,hacked,5,The Guardian,Milan,Italy,45.4642,9.19,"[45.4642, 9.19]"
-229,AshleyMadison.com,37000000, Jul ,2015,web,hacked,1,Krebs on Security,Toronto,Canada,43.65107,-79.347015,"[43.65107, -79.347015]"
-230,US Office of Personnel Management (2nd Breach),21500000, Jul ,2015,government,hacked,5,BBC News,Washington,USA,38.8951,-77.0369,"[38.8951, -77.0369]"
-231,US Office of Personnel Management,4000000, Jun ,2015,government,hacked,2,Washington Post,Washington,USA,38.8951,-77.0369,"[38.8951, -77.0369]"
-232,Australian Immigration Department,30, Mar ,2015,government,accident,4,The Guardian,Canberra,Australia,-35.2809,149.13,"[-35.2809, 149.13]"
-233,IRS,100000, May ,2015,government,hacked,1,CNN,Washington,USA,38.8951,-77.0369,"[38.8951, -77.0369]"
-234,MSpy,400000, May ,2015,app,hacked,2,Krebs on Security,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]"
-236,Securus Technologies,70000000, Nov ,2015,web,hacked,5,The Intercept,Carrollton,USA,32.9756,-96.8892,"[32.9756, -96.8892]"
-237,TalkTalk,157000, Nov ,2015,telecoms,hacked,2,BBC News,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]"
-238,Experian / T-mobile,15000000, Oct ,2015,telecoms,hacked,3,Reuters,Costa Mesa,USA,33.6638,-117.9032,"[33.6638, -117.9032]"
-239,Slack,500000, Mar ,2015,app,hacked,1,Tech Crunch,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]"
-240,CarPhone Warehouse,2400000, Aug ,2015,telecoms,hacked,3,The Guardian,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]"
-243,UCLA Health,4500000, May ,2015,health,hacked,4,Health IT Security,Los Angeles,USA,34.0522,-118.2437,"[34.0522, -118.2437]"
-245,AOL,2400000, Apr ,2014,web,hacked,1,NBC News,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-409,AOL,20000000, Aug ,2006,web,accident,1,Tech Crunch,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-417,AOL,92000000, Jun ,2004,web,inside job,1,CNN,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-246,Community Health Systems,4500000, Aug ,2014,health,hacked,2,CNN,Franklin,USA,35.9251,-86.8689,"[35.9251, -86.8689]"
-247,Privatization Agency of the Republic of Serbia,5190396, Dec ,2014,government,accident,2,Poverenik,Belgrade,Serbia,44.7866,20.4489,"[44.7866, 20.4489]"
-248,Sony Pictures,10000000, Dec ,2014,misc,hacked,2,Buzzfeed,Culver City,USA,34.0219,-118.4814,"[34.0219, -118.4814]"
-340,Sony Pictures,1000000, Jun ,2011,web,hacked,1,Mashable,Culver City,USA,34.0219,-118.4814,"[34.0219, -118.4814]"
-249,Indiana University,146000, Feb ,2014,academic,poor security,2,Indiana University,Bloomington,USA,40.4842,-88.9937,"[40.4842, -88.9937]"
-250,Ebay,145000000, May ,2014,web,hacked,1,Business Insider,San Jose,USA,37.3541,-121.9552,"[37.3541, -121.9552]"
-251,UPS,4000000, Aug ,2014,retail,hacked,3,Time,Atlanta,USA,33.749,-84.388,"[33.749, -84.388]"
-252,European Central Bank,4000000, Jul ,2014,finance,hacked,1,City am,Frankfurt,Germany,50.1109,8.6821,"[50.1109, 8.6821]"
-253,JP Morgan Chase,76000000, Oct ,2014,finance,hacked,3,Deal Book,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-406,JP Morgan Chase,2600000, May ,2007,finance,lost device,3,PC World,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-255,HSBC Turkey,2700000, Nov ,2014,finance,hacked,4,Reuters,Istanbul,Turkey,41.0082,28.9784,"[41.0082, 28.9784]"
-256,Japan Airlines,750000, Sep ,2014,transport,hacked,2,"WSJ, Japan Airlines",Tokyo,Japan,35.682839,139.759455,"[35.682839, 139.759455]"
-257,Staples,1160000, Dec ,2014,retail,hacked,3,Fortune,Framingham,USA,42.2793,-71.4162,"[42.2793, -71.4162]"
-258,GMail,5000000, Sep ,2014,web,hacked,1,The Next Web,Mountain View,USA,37.3861,-122.0839,"[37.3861, -122.0839]"
-259,Home Depot,56000000, Sep ,2014,retail,hacked,3,Krebs on Security,Atlanta,USA,33.749,-84.388,"[33.749, -84.388]"
-260,Korea Credit Bureau,20000000, Jan ,2014,finance,inside job,5,Security Week,Seoul,South Korea,37.5665,126.978,"[37.5665, 126.978]"
-261,Dominios Pizzas (France),600000, Jun ,2014,retail,hacked,1,The Guardian,Paris,France,48.8566,2.3522,"[48.8566, 2.3522]"
-262,Mozilla,76000, Aug ,2014,web,poor security,2,The Guardian,Mountain View,USA,37.3861,-122.0839,"[37.3861, -122.0839]"
-264,"Affinity Health Plan, Inc.",344579, Aug ,2013,health,lost device,4,Proskauer,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-265,Citigroup,150000, Jul ,2013,finance,accident,2,Softpedia,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-339,Citigroup,210000, Jun ,2011,finance,hacked,3,PC World,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-415,Citigroup,3900000, Jun ,2005,finance,lost device,3,NY Times,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-266,Tianya,40000000, Jul ,2013,web,hacked,1,"Computer World, Hacker News",Hainan,China,19.5664,109.9487,"[19.5664, 109.9487]"
-267,Scribd,500000, Apr ,2013,web,hacked,1,"Naked Security, NBC News",San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]"
-268,Living Social,50000000, Apr ,2013,web,hacked,1,"Naked Security, New York Times",Washington,USA,38.8951,-77.0369,"[38.8951, -77.0369]"
-270,SnapChat,4600000, Jan ,2013,web,hacked,2,BBC News,Santa Monica,USA,34.0194,-118.4912,"[34.0194, -118.4912]"
-271,University of Delaware,74000, Aug ,2013,academic,hacked,2,University of Delaware,Newark,USA,40.7357,-74.1724,"[40.7357, -74.1724]"
-272,Central Hudson Gas & Electric,110000, Feb ,2013,misc,hacked,3,eSecurity Planet,Poughkeepsie,USA,41.7004,-73.921,"[41.7004, -73.921]"
-274,"Crescent Health Inc., Walgreens",100000, Feb ,2013,health,lost device,4,Healthcare IT News,Deerfield,USA,42.1711,-87.8445,"[42.1711, -87.8445]"
-275,Florida Department of Juvenile Justice,100000, Jan ,2013,government,lost device,2,Data Breaches,Tallahassee,USA,30.4383,-84.2807,"[30.4383, -84.2807]"
-276,Advocate Medical Group,4000000, Aug ,2013,health,lost device,2,Health IT Security,Downers Grove,USA,41.8089,-88.0112,"[41.8089, -88.0112]"
-277,OVH,200000, Jul ,2013,web,hacked,2,OVH,Roubaix,France,50.6942,3.1746,"[50.6942, 3.1746]"
-278,Apple,275000, Jul ,2013,tech,hacked,1,The Guardian,Cupertino,USA,37.323,-122.0322,"[37.323, -122.0322]"
-279,NASDAQ,500000, Jul ,2013,finance,hacked,1,Reuters,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-280,UbiSoft,58000000, Jul ,2013,gaming,hacked,2,BBC News,Montreuil,France,48.8632,2.4485,"[48.8632, 2.4485]"
-281,Ubuntu,2000000, Jul ,2013,tech,hacked,3,Ars Technica,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]"
-283,National Security Agency,1500000, Jun ,2013,government,inside job,5,Business Insider,Fort Meade,USA,39.1096,-76.7446,"[39.1096, -76.7446]"
-285,Evernote,50000000, Mar ,2013,web,hacked,1,"Wired, Digital Trends",Redwood City,USA,37.4852,-122.2364,"[37.4852, -122.2364]"
-286,Kirkwood Community College,125000, Apr ,2013,academic,hacked,2,eSecurity Planet,Cedar Rapids,USA,41.9779,-91.6656,"[41.9779, -91.6656]"
-287,Yahoo Japan,22000000, May ,2013,tech,hacked,1,Reuters,Tokyo,Japan,35.682839,139.759455,"[35.682839, 139.759455]"
-288,Drupal,1000000, May ,2013,web,hacked,1,Ars Technica,Portland,USA,45.5051,-122.675,"[45.5051, -122.675]"
-289,TerraCom & YourTel,170000, May ,2013,telecoms,accident,2,"Boing Boing, Wired",Oklahoma City,USA,35.4634,-97.5151,"[35.4634, -97.5151]"
-293,Vodafone,2000000, Sep ,2013,telecoms,inside job,3,Security Week,Newbury,United Kingdom,51.3989,-1.327,"[51.3989, -1.327]"
-294,Adobe,38000000, Oct ,2013,tech,hacked,3,Adobe,San Jose,USA,37.3541,-121.9552,"[37.3541, -121.9552]"
-297,Target,70000000, Dec ,2013,retail,hacked,3,Huffington Post,Minneapolis,USA,44.9778,-93.265,"[44.9778, -93.265]"
-298,China Software Developer Network,6000000, Mar ,2012,web,hacked,1,ZDNet,Beijing,China,39.9042,116.4074,"[39.9042, 116.4074]"
-299,Global Payments,1500000, Apr ,2012,finance,hacked,3,Washington Post,Atlanta,USA,33.749,-84.388,"[33.749, -84.388]"
-300,South Carolina Government,228000, Apr ,2012,health,inside job,4,The State,Columbia,USA,34.0007,-81.0348,"[34.0007, -81.0348]"
-302,California Department of Child Support Services,800000, Apr ,2012,government,lost device,2,Business Insider,Sacramento,USA,38.5816,-121.4944,"[38.5816, -121.4944]"
-303,Emory Healthcare,315000, Apr ,2012,health,lost device,4,Emory,Atlanta,USA,33.749,-84.388,"[33.749, -84.388]"
-304,Office of the Texas Attorney General,6500000, Apr ,2012,government,accident,2,Raw Story,Austin,USA,30.2672,-97.7431,"[30.2672, -97.7431]"
-306,Blizzard,14000000, Aug ,2012,gaming,hacked,2,Forbes,Irvine,USA,33.6846,-117.8265,"[33.6846, -117.8265]"
-307,New York State Electric & Gas,1800000, Jan ,2012,misc,inside job,2,Data Breaches,Binghamton,USA,42.0987,-75.918,"[42.0987, -75.918]"
-308,Memorial Healthcare System,102153, Apr ,2012,health,lost device,2,Modern Healthcare,Hollywood,USA,34.0928,-118.3287,"[34.0928, -118.3287]"
-309,Zappos,24000000, Jan ,2012,web,hacked,2,Forbes,Las Vegas,USA,36.1699,-115.1398,"[36.1699, -115.1398]"
-311,KT Corp.,8700000, Jul ,2012,telecoms,hacked,2,"Korea Times, CNet",Seoul,South Korea,37.5665,126.978,"[37.5665, 126.978]"
-313,Last.fm,43500000, Sep ,2012,web,hacked,1,ZD Net,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]"
-314,"LinkedIn, eHarmony, Last.fm",8000000, Jun ,2012,web,hacked,1,Cnet,Sunnyvale,USA,37.3688,-122.0363,"[37.3688, -122.0363]"
-315,Gamigo,8000000, Jul ,2012,web,hacked,1,Forbes,Hamburg,Germany,53.5511,9.9937,"[53.5511, 9.9937]"
-318,Greek government,9000000, Nov ,2012,government,hacked,2,Wired,Athens,Greece,37.9838,23.7275,"[37.9838, 23.7275]"
-319,South Carolina State Dept. of Revenue,3600000, Oct ,2012,government,hacked,1,Information Week,Columbia,USA,34.0007,-81.0348,"[34.0007, -81.0348]"
-320,Dropbox,68700000, Aug ,2012,web,hacked,1,The Telegraph,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]"
-321,New York City Health & Hospitals Corp.,1700000, Feb ,2011,health,lost device,4,InfoRisk,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-322,"Seacoast Radiology, PA",231400, Jan ,2011,health,hacked,2,Fosters,New Hampshire,USA,43.1939,-71.5724,"[43.1939, -71.5724]"
-323,"South Shore Hospital, Massachusetts",800000, Sep ,2011,health,lost device,5,Boston Globe,South Weymouth,USA,42.2209,-70.941,"[42.2209, -70.941]"
-324,Betfair,2300000, May ,2011,web,hacked,3,FT,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]"
-325,"Ankle & foot Center of Tampa Bay, Inc.",156000, Jan ,2011,health,hacked,4,Phi Privacy,Tampa,USA,27.9506,-82.4572,"[27.9506, -82.4572]"
-326,Yale University,43000, Aug ,2011,academic,accident,2,NBC News,New Haven,USA,41.3082,-72.9282,"[41.3082, -72.9282]"
-327,Morgan Stanley Smith Barney,34000, Jul ,2011,finance,lost device,3,ABC News,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-329,Epsilon,3000000, Apr ,2011,web,hacked,1,Guardian,Irving,USA,32.814,-96.9489,"[32.814, -96.9489]"
-330,Sony PSN,77000000, Apr ,2011,gaming,hacked,1,Mashable,San Mateo,USA,37.5537,-122.2654,"[37.5537, -122.2654]"
-332,University of Wisconsin - Milwaukee,73000, Aug ,2011,academic,hacked,2,ZDNet,Milwaukee,USA,43.0389,-87.9065,"[43.0389, -87.9065]"
-333,Stratfor,935000, Dec ,2011,military,hacked,3,NYTimes,Austin,USA,30.2672,-97.7431,"[30.2672, -97.7431]"
-337,Bethesda Game Studios,200000, Jun ,2011,gaming,hacked,1,PC World,Rockville,USA,39.0834,-77.1558,"[39.0834, -77.1558]"
-338,Sega,1290755, Jun ,2011,gaming,hacked,2,ZDNet,Tokyo,Japan,35.682839,139.759455,"[35.682839, 139.759455]"
-342,Washington Post,1270000, Jul ,2011,misc,hacked,2,PC Mag,Washington,USA,38.8951,-77.0369,"[38.8951, -77.0369]"
-343,Health Net - IBM,1900000, Mar ,2011,health,lost device,3,IEEE Spectrum,Los Angeles,USA,34.0522,-118.2437,"[34.0522, -118.2437]"
-344,Eisenhower Medical Center,514330, Apr ,2011,health,lost device,4,Data Breach Info,Rancho Mirage,USA,33.7385,-116.4084,"[33.7385, -116.4084]"
-345,Spartanburg Regional Healthcare System,400000, May ,2011,health,lost device,4,GoUpstate,Spartanburg,USA,34.9496,-81.932,"[34.9496, -81.932]"
-346,NHS,8600000, Jun ,2011,health,lost device,4,Alphr,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]"
-348,Sony Online Entertainment,24600000, May ,2011,gaming,hacked,3,Computer Weekly,San Diego,USA,32.7157,-117.1611,"[32.7157, -117.1611]"
-349,Honda Canada,283000, May ,2011,retail,hacked,2,Guelph Mercury,Markham,Canada,43.8561,-79.337,"[43.8561, -79.337]"
-351,Oregon Department of Motor Vehicles,1000000, May ,2011,government,hacked,2,Data Breaches,Salem,USA,44.9429,-123.0351,"[44.9429, -123.0351]"
-352,Steam,35000000, Nov ,2011,web,hacked,3,SC Mag,Bellevue,USA,47.6101,-122.2015,"[47.6101, -122.2015]"
-353,Restaurant Depot,200000, Nov ,2011,retail,hacked,3,NBC News,College Point,USA,40.7862,-73.8454,"[40.7862, -73.8454]"
-354,Nexon Korea Corp,13200000, Nov ,2011,web,hacked,2,Reuters,Seoul,South Korea,37.5665,126.978,"[37.5665, 126.978]"
-355,Nemours Foundation,1600000, Oct ,2011,health,lost device,4,Law360,Jacksonville,USA,30.3322,-81.6557,"[30.3322, -81.6557]"
-356,Sutter Medical Foundation,4243434, Nov ,2011,health,lost device,2,Trend Micro,Sacramento,USA,38.5816,-121.4944,"[38.5816, -121.4944]"
-358,"AvMed, Inc.",1220000, Feb ,2010,health,lost device,2,Hack Notice,Miami,USA,25.7617,-80.1918,"[25.7617, -80.1918]"
-359,Blue Cross Blue Shield of Tennessee,1023209, May ,2010,health,lost device,2,Data Breaches,Chattanooga,USA,35.0456,-85.3097,"[35.0456, -85.3097]"
-362,"Triple-S Salud, Inc.",398000, Nov ,2010,health,lost device,4,Data Breaches,San Juan,Puerto Rico,18.4655,-66.1057,"[18.4655, -66.1057]"
-363,Ohio State University,760000, Dec ,2010,academic,hacked,2,The Lantern,Columbus,USA,39.9612,-82.9988,"[39.9612, -82.9988]"
-364,"Emergency Healthcare Physicians, Ltd.",180111, May ,2010,health,lost device,4,Healthcare Info Security,Lafayette,USA,30.2241,-92.0198,"[30.2241, -92.0198]"
-366,AT&T,114000, Jun ,2010,telecoms,hacked,1,Guardian,Dallas,USA,32.7767,-96.797,"[32.7767, -96.797]"
-389,AT&T,113000, Jun ,2008,telecoms,lost device,1,NetworkWorld,Dallas,USA,32.7767,-96.797,"[32.7767, -96.797]"
-367,Lincoln Medical & Mental Health Center,130495, Jun ,2010,health,lost device,4,Alert Boot,Bronx,USA,40.8448,-73.8648,"[40.8448, -73.8648]"
-368,Educational Credit Management Corp,3300000, Mar ,2010,finance,lost device,2,Wall Street Journal,Minneapolis,USA,44.9778,-93.265,"[44.9778, -93.265]"
-369,US Federal Reserve Bank of Cleveland,400000, Nov ,2010,finance,hacked,3,Bank Info Security,Cleveland,USA,41.4993,-81.6944,"[41.4993, -81.6944]"
-371,Heartland,130000000, Jan ,2009,finance,hacked,3,Dark Reading,Princeton,USA,40.3573,-74.6672,"[40.3573, -74.6672]"
-373,RockYou!,32000000, Dec ,2009,web,hacked,1,Tech Crunch,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]"
-374,CheckFree Corporation,5000000, Jan ,2009,finance,hacked,1,Computer World,Norcross,USA,33.9412,-84.2135,"[33.9412, -84.2135]"
-375,Network Solutions,573000, Jul ,2009,web,hacked,3,Washington Post,Jacksonville,USA,30.3322,-81.6557,"[30.3322, -81.6557]"
-376,Virginia Prescription Monitoring Program,531400, May ,2009,health,hacked,2,Digital Health,Richmond,USA,37.5407,-77.436,"[37.5407, -77.436]"
-377,University of California Berkeley,160000, May ,2009,academic,hacked,3,Cnet,Berkeley,USA,37.8715,-122.273,"[37.8715, -122.273]"
-380,Compass Bank,1000000, Mar ,2008,finance,inside job,3,Computer Weekly,Birmingham,USA,33.5207,-86.8025,"[33.5207, -86.8025]"
-381,Hannaford Brothers Supermarket Chain,4200000, Mar ,2008,retail,hacked,3,NetworkWorld,Scarborough,USA,43.6777,-70.3573,"[43.6777, -70.3573]"
-382,University of Miami,2100000, Apr ,2008,academic,lost device,3,Identity Theft,Coral Gables,USA,25.7215,-80.2684,"[25.7215, -80.2684]"
-383,BNY Mellon Shareowner Services,4500000, May ,2008,finance,lost device,1,Reuters,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]"
-384,Countrywide Financial Corp,2500000, Aug ,2008,finance,inside job,2,LATimes,Calabasas,USA,34.1367,-118.6615,"[34.1367, -118.6615]"
-385,UK Home Office,84000, Aug ,2008,government,lost device,2,Wikipedia,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]"
-386,RBS Worldpay,1500000, Dec ,2008,finance,hacked,5,The Register,Atlanta,USA,33.749,-84.388,"[33.749, -84.388]"
-387,Auction.co.kr,18000000, Feb ,2008,web,hacked,3,Dark Reading,Seoul,South Korea,37.5665,126.978,"[37.5665, 126.978]"
-388,GS Caltex,11100000, Sep ,2008,misc,inside job,2,The Dong-a Ilbo,Seoul,South Korea,37.5665,126.978,"[37.5665, 126.978]"
-390,Stanford University,72000, Jun ,2008,academic,lost device,2,SFGate,Stanford,USA,37.4241,-122.1661,"[37.4241, -122.1661]"
-391,University of Utah Hospitals & Clinics,2200000, Jun ,2008,academic,lost device,4,Salt Lake Tribune,Salt Lake City,USA,40.7608,-111.891,"[40.7608, -111.891]"
-392,Chile Ministry Of Education,6000000, May ,2008,government,hacked,1,BBC News,Santiago,Chile,-33.4489,-70.6693,"[-33.4489, -70.6693]"
-393,Texas Lottery,89000, Nov ,2008,government,inside job,2,Houston Chronicle,Austin,USA,30.2672,-97.7431,"[30.2672, -97.7431]"
-394,Starbucks,97000, Nov ,2008,retail,lost device,2,Info Watch,Seattle,USA,47.6062,-122.3321,"[47.6062, -122.3321]"
-395,UK Ministry of Defence,1700000, Oct ,2008,government,lost device,5,BBC News,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]"
-396,"T-Mobile, Deutsche Telecom",17000000, Oct ,2008,telecoms,lost device,1,FT,Bonn,Germany,50.7374,7.0982,"[50.7374, 7.0982]"
-397,Norwegian Tax Authorities,3950000, Sep ,2008,government,accident,2,Info Watch,Oslo,Norway,59.9139,10.7522,"[59.9139, 10.7522]"
-398,Service Personnel and Veterans Agency (UK),50500, Sep ,2008,government,lost device,2,BBC News,United Kingdom,United Kingdom,55.3781,-3.436,"[55.3781, -3.436]"
-399,Monster.com,1600000, Aug ,2007,web,hacked,2,BBC News,Weston,USA,26.1004,-80.3998,"[26.1004, -80.3998]"
-400,Driving Standards Agency,3000000, Dec ,2007,government,lost device,2,BBC News,Bristol,United Kingdom,51.4545,-2.5879,"[51.4545, -2.5879]"
-401,Fidelity National Information Services,8500000, Jul ,2007,finance,inside job,3,PCWorld,Jacksonville,USA,30.3322,-81.6557,"[30.3322, -81.6557]"
-402,City and Hackney Teaching Primary Care Trust,160000, Dec ,2007,government,lost device,2,Computer Weekly,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]"
-403,Gap Inc,800000, Sep ,2007,retail,lost device,2,PC World,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]"
-404,Dai Nippon Printing,8637405, Mar ,2007,retail,inside job,1,Compare Business Products,Tokyo,Japan,35.682839,139.759455,"[35.682839, 139.759455]"
-405,TK / TJ Maxx,94000000, Mar ,2007,retail,hacked,3,ZD Net,Framingham,USA,42.2793,-71.4162,"[42.2793, -71.4162]"
-407,UK Revenue & Customs,25000000, Nov ,2007,government,lost device,1,BBC News,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]"
-408,TD Ameritrade,6300000, Sep ,2007,finance,hacked,1,"Wired, CBNC",Omaha,USA,41.2565,-95.9345,"[41.2565, -95.9345]"
-410,US Dept of Vet Affairs,26500000, Jul ,2006,government,lost device,2,"GCN, US Gov",Washington,USA,47.7511,-120.7401,"[47.7511, -120.7401]"
-411,Automatic Data Processing,125000, Jul ,2006,finance,poor security,2,ABC News,Roseland,USA,40.8201,-74.3024,"[40.8201, -74.3024]"
-412,KDDI,4000000, Jun ,2006,telecoms,hacked,1,Computer World,Tokyo,Japan,35.682839,139.759455,"[35.682839, 139.759455]"
-413,Hewlett Packard,200000, Mar ,2006,tech,lost device,2,Computer Weekly,Palo Alto,USA,37.4419,-122.143,"[37.4419, -122.143]"
-414,Ameritrade Inc.,200000, Apr ,2005,finance,lost device,2,NBC,Omaha,USA,41.2565,-95.9345,"[41.2565, -95.9345]"
+id,organisation,records_lost,month,year,sector,method,data_sensitivity,source_name,city,country,latitude,longitude,coordinates,date
+1,Plex,15000000,Aug,2022,web,hacked,1,Ars technica,Los Gatos,USA,37.235,-121.9629,"[37.235, -121.9629]",2022-08-01
+2,Twitter,5400000,Dec,2021,web,hacked,2,Bleeping Computer,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]",2021-12-01
+148,Twitter,330000000,May,2018,tech,poor security,1,Reuters,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]",2018-05-01
+273,Twitter,250000,Feb,2013,web,hacked,1,CNN,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]",2013-02-01
+3,Shanghai Police,500000000,Jul,2022,financial,hacked,5,The Register,Shanghai,China,31.2304,121.4737,"[31.2304, 121.4737]",2022-07-01
+4,"City of Amagasaki, Japan",500000,Jun,2022,government,accident,3,BBC,Amagasaki,Japan,34.7303,135.5795,"[34.7303, 135.5795]",2022-06-01
+6,Heroku,50000,Apr,2022,tech,hacked,2,Bleeping Computer,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]",2022-04-01
+7,Mailchimp,106586,Apr,2022,tech,hacked,1,Bleeping Computer,Atlanta,USA,33.749,-84.388,"[33.749, -84.388]",2022-04-01
+8,PayHere,1580249,Mar,2022,financial,hacked,3,Pay Here,Colombo,Sri Lanka,6.9271,79.8612,"[6.9271, 79.8612]",2022-03-01
+9,CDEK,18218203,Mar,2022,retail,hacked,3,Have I Been Pwned,Novosibirsk,Russia,55.0084,82.9357,"[55.0084, 82.9357]",2022-03-01
+10,Washington State Dpt of Licensing,257000,Feb,2022,government,hacked,3,Seattle Times,Olympia,USA,47.0379,-122.9007,"[47.0379, -122.9007]",2022-02-01
+11,Red Cross,500000,Jan,2022,NGO,hacked,4,Arsetechnia,Geneva,Switzerland,46.2044,6.1432,"[46.2044, 6.1432]",2022-01-01
+13,FlexBooker,3700000,Jan,2022,web,hacked,3,Bleeping Computer,Calgary,Canada,51.0447,-114.0719,"[51.0447, -114.0719]",2022-01-01
+14,LINE Pay,133000,Dec,2021,financial,poor security,2,The Register,Tokyo,Japan,35.682839,139.759455,"[35.682839, 139.759455]",2021-12-01
+15,Robinhood,5000937,Nov,2021,financial,hacked,2,Tech Crunch,Menlo Park,USA,37.4529,-122.1817,"[37.4529, -122.1817]",2021-11-01
+16,GoDaddy,1200000,Nov,2021,web,hacked,1,SEC,Scottsdale,USA,33.4942,-111.9261,"[33.4942, -111.9261]",2021-11-01
+17,Travelio,471376,Nov,2021,misc,hacked,2,HaveIBeenPwned,Jakarta,Indonesia,-6.2088,106.8456,"[-6.2088, 106.8456]",2021-11-01
+18,Acer,3000000,Oct,2021,tech,hacked,1,Hot Hardware,New Taipei City,Taiwan,25.0165,121.4629,"[25.0165, 121.4629]",2021-10-01
+19,Brewdog,200000,Oct,2021,retail,poor security,1,Tech Radar,Ellon,United Kingdom,57.3632,-2.0946,"[57.3632, -2.0946]",2021-10-01
+20,Nvidia,100000,Mar,2021,tech,hacked,2,CNN Business,Santa Clara,USA,37.3541,-121.9552,"[37.3541, -121.9552]",2021-03-01
+21,Okta,100000,Jan,2021,tech,hacked,1,The Verge,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]",2021-01-01
+22,Experian SA,24000000,Jul,2020,web,accident,3,Uni of Hawaii,Johannesburg,South Africa,-26.2041,28.0473,"[-26.2041, 28.0473]",2020-07-01
+23,Royal Enfield,420873,Jan,2020,transport,poor security,3,The Quint,Chennai,India,13.0827,80.2707,"[13.0827, 80.2707]",2020-01-01
+24,Avvo,4101101,Dec,2019,legal,hacked,1,HaveIBeenPwned,Seattle,USA,47.6062,-122.3321,"[47.6062, -122.3321]",2019-12-01
+26,Twitch,10000000,Oct,2021,gaming,hacked,4,BBC,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]",2021-10-01
+220,Twitch,10000000,Mar,2015,health,hacked,1,Twitch,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]",2015-03-01
+27,Syniverse,500000000,Sep,2021,telecoms,hacked,4,Vice,Tampa,USA,27.9506,-82.4572,"[27.9506, -82.4572]",2021-09-01
+29,Neiman Marcus,4600000,Sep,2021,retail,hacked,3,Ars Technica,Dallas,USA,32.7767,-96.797,"[32.7767, -96.797]",2021-09-01
+244,Neiman Marcus,1100000,Jan,2014,retail,hacked,2,NY Times,Dallas,USA,32.7767,-96.797,"[32.7767, -96.797]",2014-01-01
+30,Epik,15000000,Sep,2021,retail,hacked,5,Ars Technica,Sammamish,USA,47.6163,-122.0356,"[47.6163, -122.0356]",2021-09-01
+34,Estonian gov,280000,Jul,2021,government,hacked,4,News ERR,Tallinn,Estonia,59.437,24.7536,"[59.437, 24.7536]",2021-07-01
+35,Guntrader,111000,Jul,2021,retail,hacked,2,The Register,Chichester,United Kingdom,50.8376,-0.7747,"[50.8376, -0.7747]",2021-07-01
+36,Linkedin,700000000,Jul,2021,web,hacked,1,9 to 5 mac,Sunnyvale,USA,37.3688,-122.0363,"[37.3688, -122.0363]",2021-07-01
+37,VW,3300000,Jun,2021,transport,hacked,2,Reuters,Wolfsburg,Germany,52.4226,10.7865,"[52.4226, 10.7865]",2021-06-01
+38,MacDonalds,10000000,Jun,2021,retail,hacked,2,Wall St Journal,Chicago,USA,41.8781,-87.6298,"[41.8781, -87.6298]",2021-06-01
+39,Air India,4500000,May,2021,transport,hacked,2,Indian Express,New Delhi,India,28.6139,77.209,"[28.6139, 77.209]",2021-05-01
+40,Omiai dating app,1710000,May,2021,app,hacked,2,Japan Times,Tokyo,Japan,35.682839,139.759455,"[35.682839, 139.759455]",2021-05-01
+42,Peloton,3000000,May,2021,tech,poor security,2,Ars Technica,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2021-05-01
+44,Park Mobile,21000000,Apr,2021,transport,hacked,2,Krebson Security,Atlanta,USA,33.749,-84.388,"[33.749, -84.388]",2021-04-01
+45,Ubiquiti,16000000,Feb,2021,tech,hacked,2,ZDNet,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2021-02-01
+46,Meet Mindful,2240000,Feb,2021,tech,hacked,4,ZDnet,Denver,USA,39.7392,-104.9903,"[39.7392, -104.9903]",2021-02-01
+47,Experian Brazil,220000000,Feb,2021,finance,hacked,2,ZDNet,São Paulo,Brazil,-23.5505,-46.6333,"[-23.5505, -46.6333]",2021-02-01
+48,Gab,4000000,Mar,2021,tech,hacked,3,Wired,Philadelphia,USA,39.9526,-75.1652,"[39.9526, -75.1652]",2021-03-01
+49,Star Alliance,16000000,Mar,2021,transport,hacked,1,The Guardian,Frankfurt,Germany,50.1109,8.6821,"[50.1109, 8.6821]",2021-03-01
+50,Facebook,533000000,Mar,2021,tech,hacked,1,Business Insider,Menlo Park,USA,37.4529,-122.1817,"[37.4529, -122.1817]",2021-03-01
+116,Facebook,419000000,Sep,2019,web,poor security,2,Fast Company,Menlo Park,USA,37.4529,-122.1817,"[37.4529, -122.1817]",2019-09-01
+129,Facebook,50000000,Mar,2018,web,hacked,1,Guardian,Menlo Park,USA,37.4529,-122.1817,"[37.4529, -122.1817]",2018-03-01
+158,Facebook,29000000,Oct,2018,web,hacked,2,"Business Insider, Facebook",Menlo Park,USA,37.4529,-122.1817,"[37.4529, -122.1817]",2018-10-01
+284,Facebook,6000000,Jun,2013,web,accident,1,Facebook,Menlo Park,USA,37.4529,-122.1817,"[37.4529, -122.1817]",2013-06-01
+51,Ledger,270000,Dec,2020,finance,hacked,2,Bleeping Computer,Paris,France,48.8566,2.3522,"[48.8566, 2.3522]",2020-12-01
+52,T-mobile,200000,Dec,2020,telecoms,hacked,1,Bleeping Computer,Bellevue,USA,47.6101,-122.2015,"[47.6101, -122.2015]",2020-12-01
+53,The Hospital Group,1000000,Dec,2020,health,hacked,4,BBC,Manchester,United Kingdom,53.483,-2.2441,"[53.483, -2.2441]",2020-12-01
+54,SolarWinds,50000000,Dec,2020,app,hacked,3,New York Times,Austin,USA,30.2672,-97.7431,"[30.2672, -97.7431]",2020-12-01
+55,Ho Mobile,2500000,Dec,2020,telecoms,hacked,2,ZD Net,Rome,Italy,41.9028,12.4964,"[41.9028, 12.4964]",2020-12-01
+56,Spotify,500000,Dec,2020,app,accident,1,Tech Crunch,Stockholm,Sweden,59.3293,18.0686,"[59.3293, 18.0686]",2020-12-01
+57,Drizly,2400000,Sep,2020,app,hacked,2,Tech Crunch,Boston,USA,42.3601,-71.0589,"[42.3601, -71.0589]",2020-09-01
+58,GEDmatch,1400000,Sep,2020,misc,hacked,5,New York Times,Lake Worth,USA,26.6168,-80.0684,"[26.6168, -80.0684]",2020-09-01
+59,Call of Duty / Activision,500000,Sep,2020,gaming,hacked,1,Forbes,Santa Monica,USA,34.0194,-118.4912,"[34.0194, -118.4912]",2020-09-01
+60,Zhenhua,2400000,Sep,2020,misc,accident,1,The Guardian,Shenzhen,China,22.5431,114.0579,"[22.5431, 114.0579]",2020-09-01
+62,Nintendo,300000,Apr,2020,gaming,hacked,3,Tech Crunch,Kyoto,Japan,35.0116,135.7681,"[35.0116, 135.7681]",2020-04-01
+282,Nintendo,4000000,Jun,2013,gaming,hacked,2,ZDNet,Kyoto,Japan,35.0116,135.7681,"[35.0116, 135.7681]",2013-06-01
+64,US Marshals Service,387000,May,2020,government,hacked,2,NextGov,Arlington,USA,38.8783,-77.0687,"[38.8783, -77.0687]",2020-05-01
+66,EasyJet,9000000,May,2020,transport,hacked,3,BBC,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]",2020-05-01
+67,Microsoft,250000000,Jan,2020,web,poor security,1,Forbes,Redmond,USA,47.6739,-122.1215,"[47.6739, -122.1215]",2020-01-01
+68,Dutch Government,6900000,Mar,2020,government,lost device,4,ZDNet,The Hague,Netherlands,52.0705,4.3007,"[52.0705, 4.3007]",2020-03-01
+69,Virgin Media,900000,Mar,2020,retail,poor security,1,BBC ,Hook,United Kingdom,51.2778,-0.9614,"[51.2778, -0.9614]",2020-03-01
+70,Boots Advantage Card,150000,Mar,2020,retail,hacked,1,Which,Nottingham,United Kingdom,52.9548,-1.1581,"[52.9548, -1.1581]",2020-03-01
+71,Tesco Clubcard,600000,Mar,2020,retail,hacked,1,Tech Radar,Welwyn Garden City,United Kingdom,51.8061,-0.2062,"[51.8061, -0.2062]",2020-03-01
+72,Marriott Hotels,5200000,Mar,2020,retail,inside job,2,Marriott,Bethesda,USA,38.9847,-77.0947,"[38.9847, -77.0947]",2020-03-01
+73,Zoom,500000,Apr,2020,app,hacked,1,We Live Security,San Jose,USA,37.3541,-121.9552,"[37.3541, -121.9552]",2020-04-01
+74,Israeli government,6500000,Feb,2020,government,poor security,2,NYTimes,Jerusalem,Israel,31.7683,35.2137,"[31.7683, 35.2137]",2020-02-01
+75,MGM Hotels,10600000,Feb,2020,retail,hacked,2,ZDNet,Las Vegas,USA,36.1699,-115.1398,"[36.1699, -115.1398]",2020-02-01
+76,Buchbinder Car Rentals,5000000,Jan,2020,transport,poor security,2,Teller Report,Regensburg,Germany,49.0134,12.1016,"[49.0134, 12.1016]",2020-01-01
+77,Wawa,30000000,Dec,2019,retail,hacked,3,Krebs on Security,Wawa,USA,39.9607,-75.6055,"[39.9607, -75.6055]",2019-12-01
+78,Desjardins Group,4200000,Jun,2019,finance,inside job,2,CBC,Lévis,Canada,46.8139,-71.208,"[46.8139, -71.208]",2019-06-01
+79,US Customs and Border Protection,100000,Jun,2019,government,hacked,2,Washington Post,Washington,USA,38.8951,-77.0369,"[38.8951, -77.0369]",2019-06-01
+80,Quest Diagnostics,20000000,Jun,2019,health,poor security,4,ZDNet,Secaucus,USA,40.7891,-74.0561,"[40.7891, -74.0561]",2019-06-01
+215,Quest Diagnostics,34000,Dec,2016,health,hacked,4,Newsroom,Secaucus,USA,40.7891,-74.0561,"[40.7891, -74.0561]",2016-12-01
+81,Australian National University,200000,Jun,2019,academic,hacked,4,Guardian,Canberra,Australia,-35.2809,149.13,"[-35.2809, 149.13]",2019-06-01
+82,Canva,139000000,May,2019,web,hacked,2,ZDNet,Sydney,Australia,-33.8651,151.2099,"[-33.8651, 151.2099]",2019-05-01
+83,Chtrbox,49000000,May,2019,misc,poor security,1,Techcrunch,Mumbai,India,19.076,72.8777,"[19.076, 72.8777]",2019-05-01
+85,Toyota,3100000,Apr,2019,transport,hacked,2,Bleeping Computer,Toyota City,Japan,35.0806,137.1698,"[35.0806, 137.1698]",2019-04-01
+87,Vårdguiden,2700000,Feb,2019,health,poor security,5,ComputerSweden,Stockholm,Sweden,59.3293,18.0686,"[59.3293, 18.0686]",2019-02-01
+88,Dubsmash,162000000,Feb,2019,web,hacked,1,The Register,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2019-02-01
+89,ShareThis,41000000,Feb,2019,web,hacked,1,The Register,Palo Alto,USA,37.4419,-122.143,"[37.4419, -122.143]",2019-02-01
+90,HauteLook,28000000,Feb,2019,retail,hacked,1,The Register,Los Angeles,USA,34.0522,-118.2437,"[34.0522, -118.2437]",2019-02-01
+91,Animoto,25000000,Feb,2019,web,hacked,1,The Register,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2019-02-01
+92,EyeEm,22000000,Feb,2019,web,hacked,1,The Register,Berlin,Germany,52.52,13.405,"[52.52, 13.405]",2019-02-01
+93,8fit,20000000,Feb,2019,web,hacked,1,The Register,Berlin,Germany,52.52,13.405,"[52.52, 13.405]",2019-02-01
+94,Whitepages,18000000,Feb,2019,web,hacked,1,The Register,Seattle,USA,47.6062,-122.3321,"[47.6062, -122.3321]",2019-02-01
+95,Fotolog,16000000,Feb,2019,web,hacked,1,The Register,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2019-02-01
+96,Armor Games,11000000,Feb,2019,gaming,hacked,1,The Register,Irvine,USA,33.6846,-117.8265,"[33.6846, -117.8265]",2019-02-01
+97,BookMate,8000000,Feb,2019,web,hacked,1,The Register,Moscow,Russia,55.7558,37.6176,"[55.7558, 37.6176]",2019-02-01
+98,CoffeeMeetsBagel,6000000,Feb,2019,web,hacked,1,The Register,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]",2019-02-01
+99,Artsy,1000000,Feb,2019,web,hacked,1,The Register,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2019-02-01
+100,DataCamp,700000,Feb,2019,web,hacked,1,The Register,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2019-02-01
+101,Ixigo,18000000,Feb,2019,transport,poor security,1,Techcrunch,Gurugram,India,28.4595,77.0266,"[28.4595, 77.0266]",2019-02-01
+102,YouNow,40000000,Feb,2019,web,hacked,1,Techcrunch,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2019-02-01
+103,Houzz,57000000,Feb,2019,retail,hacked,2,Techcrunch,Palo Alto,USA,37.4419,-122.143,"[37.4419, -122.143]",2019-02-01
+105,Coinmama,450000,Feb,2019,finance,hacked,1,Techcrunch,Israel,Israel,31.7683,35.2137,"[31.7683, 35.2137]",2019-02-01
+106,Roll20,4000000,Feb,2019,gaming,hacked,1,Techcrunch,Bellingham,USA,48.7519,-122.4787,"[48.7519, -122.4787]",2019-02-01
+107,Stronghold Kingdoms,5000000,Feb,2019,gaming,hacked,1,Techcrunch,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]",2019-02-01
+108,Petflow,1000000,Feb,2019,retail,poor security,1,Techcrunch,Miami,USA,25.7617,-80.1918,"[25.7617, -80.1918]",2019-02-01
+109,500px,14800000,Feb,2019,web,hacked,2,PetaPixel,Toronto,Canada,43.65107,-79.347015,"[43.65107, -79.347015]",2019-02-01
+110,Blur,2400000,Jan,2019,tech,accident,1,ZDNet,Boston,USA,42.3601,-71.0589,"[42.3601, -71.0589]",2019-01-01
+111,Blank Media Games,7600000,Jan,2019,gaming,hacked,1,ZDNet,Boston,USA,42.3601,-71.0589,"[42.3601, -71.0589]",2019-01-01
+113,Bulgarian National Revenue Agency,5000000,Jul,2019,government,hacked,2,ZDNet,Sofia,Bulgaria,42.6977,23.3219,"[42.6977, 23.3219]",2019-07-01
+114,Capital One,100000000,Jul,2019,finance,hacked,3,Forbes,McLean,USA,38.9343,-77.1775,"[38.9343, -77.1775]",2019-07-01
+115,Suprema,27800000,Aug,2019,tech,poor security,5,Guardian,Seoul,South Korea,37.5665,126.978,"[37.5665, 126.978]",2019-08-01
+117,DoorDash,4900000,Sep,2019,transport,hacked,2,Techcrunch,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]",2019-09-01
+120,Click2Gov,300000,Dec,2018,finance,hacked,3,Fortune,Lake Mary,USA,28.7577,-81.3389,"[28.7577, -81.3389]",2018-12-01
+121,SingHealth,1500000,Jul,2018,health,hacked,4,Straits Times,Singapore,Singapore,1.3521,103.8198,"[1.3521, 103.8198]",2018-07-01
+122,GovPayNow.com,14000000,Sep,2018,finance,poor security,2,Krebs on Security,Tallahassee,USA,30.4383,-84.2807,"[30.4383, -84.2807]",2018-09-01
+123,Cathay Pacific Airways,94000000,Oct,2018,transport,hacked,3,ABC News,Hong Kong,Hong Kong,22.3193,114.1694,"[22.3193, 114.1694]",2018-10-01
+125,Google+,52500000,Dec,2018,web,poor security,2,The Verge,Mountain View,USA,37.3861,-122.0839,"[37.3861, -122.0839]",2018-12-01
+126,Quora,100000000,Dec,2018,web,hacked,1,NY Times,Mountain View,USA,37.3861,-122.0839,"[37.3861, -122.0839]",2018-12-01
+127,Marriott International,383000000,Nov,2018,retail,hacked,3,"NY Times, CNET",Bethesda,USA,38.9847,-77.0947,"[38.9847, -77.0947]",2018-11-01
+128,NMBS,700000,Dec,2018,transport,accident,2,Flanders Today,Brussels,Belgium,50.8503,4.3517,"[50.8503, 4.3517]",2018-12-01
+130,Panerabread,37000000,Apr,2018,retail,poor security,2,"Krebsonsecurity, Medium",St. Louis,USA,38.627,-90.1994,"[38.627, -90.1994]",2018-04-01
+131,Dixons Carphone,10000000,Jun,2018,telecoms,hacked,1,BBC,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]",2018-06-01
+132,MyHeritage,92283889,Jun,2018,web,hacked,1,Bloomberg,Or Yehuda,Israel,32.0336,34.8574,"[32.0336, 34.8574]",2018-06-01
+133,Saks and Lord & Taylor,5000000,Apr,2018,retail,hacked,3,NYTimes,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2018-04-01
+134,Careem,14000000,Apr,2018,app,hacked,2,Khaleej Times,Dubai,United Arab Emirates,25.276987,55.296249,"[25.276987, 55.296249]",2018-04-01
+136,British Airways,380000,Sep,2018,transport,hacked,4,Guardian,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]",2018-09-01
+241,British Airways,10000,Mar,2015,transport,hacked,1,The Guardian,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]",2015-03-01
+137,T-Mobile,2000000,Aug,2018,telecoms,hacked,1,Motherboard,Bellevue,USA,47.6101,-122.2015,"[47.6101, -122.2015]",2018-08-01
+138,MyFitnessPal,150000000,Mar,2018,app,hacked,1,Guardian,Baltimore,USA,39.2904,-76.6122,"[39.2904, -76.6122]",2018-03-01
+139,Helse Sør-Øst RHF,3000000,Feb,2018,health,hacked,4,It Governance,Oslo,Norway,59.9139,10.7522,"[59.9139, 10.7522]",2018-02-01
+140,Nametests,120000000,Jun,2018,app,poor security,1,Medium,Cologne,Germany,50.9375,6.9603,"[50.9375, 6.9603]",2018-06-01
+141,Ticketmaster,40000,Jun,2018,web,hacked,3,BBC News,Beverly Hills,USA,34.0696,-118.4058,"[34.0696, -118.4058]",2018-06-01
+142,Firebase,100000000,Jun,2018,app,poor security,5,Bleeping Computer,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]",2018-06-01
+143,Aadhaar,550000000,Mar,2018,government,poor security,4,ZDNet,New Delhi,India,28.6139,77.209,"[28.6139, 77.209]",2018-03-01
+144,Grindr,3000000,Mar,2018,app,poor security,3,NBC News,Los Angeles,USA,34.0522,-118.2437,"[34.0522, -118.2437]",2018-03-01
+145,Orbitz,880000,Mar,2018,web,hacked,3,US News,Chicago,USA,41.8781,-87.6298,"[41.8781, -87.6298]",2018-03-01
+150,TicketFly,27000000,May,2018,web,hacked,2,The Verge,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]",2018-05-01
+151,Amazon,5000000,Nov,2018,retail,accident,1,Guardian,Seattle,USA,47.6062,-122.3321,"[47.6062, -122.3321]",2018-11-01
+152,Urban Massage,309000,Nov,2018,app,poor security,2,Tech Crunch,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]",2018-11-01
+155,SKY Brasil,32000000,Nov,2018,telecoms,poor security,1,Bleeping Computer,São Paulo,Brazil,-23.5505,-46.6333,"[-23.5505, -46.6333]",2018-11-01
+156,Vision Direct,16300,Nov,2018,retail,hacked,4,BBC,Milan,Italy,45.4642,9.19,"[45.4642, 9.19]",2018-11-01
+157,Medicare & Medicaid,93689,Nov,2018,health,hacked,2,HCA News,Baltimore,USA,39.2904,-76.6122,"[39.2904, -76.6122]",2018-11-01
+159,Newegg,45000000,Sep,2018,retail,hacked,3,TechCrunch,City of Industry,USA,34.0197,-117.9587,"[34.0197, -117.9587]",2018-09-01
+161,Apollo,200000000,May,2018,tech,poor security,1,Wired,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2018-05-01
+162,Disqus,17500000,Dec,2017,web,hacked,4,ZD Net,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2017-12-01
+164,Yahoo,32000000,Mar,2017,web,hacked,4,CNet,Sunnyvale,USA,37.3688,-122.0363,"[37.3688, -122.0363]",2017-03-01
+189,Yahoo,500000000,Sep,2016,web,hacked,2,CNBC,Sunnyvale,USA,37.3688,-122.0363,"[37.3688, -122.0363]",2016-09-01
+269,Yahoo,550000000,Dec,2013,web,hacked,2,"NY Times, BBC",Sunnyvale,USA,37.3688,-122.0363,"[37.3688, -122.0363]",2013-12-01
+165,Uber,57000000,Nov,2017,app,hacked,1,Bloomberg,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]",2017-11-01
+222,Uber,50000,Feb,2015,tech,poor security,1,TechCrunch,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]",2015-02-01
+166,Wonga,270000,Apr,2017,finance,hacked,4,The Guardian,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]",2017-04-01
+167,Snapchat,1700000,Apr,2017,app,hacked,1,BGR,Santa Monica,USA,34.0194,-118.4912,"[34.0194, -118.4912]",2017-04-01
+169,CEX,2000000,Aug,2017,retail,accident,3,PC Mag,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]",2017-08-01
+171,Cellebrite,3000000,Jan,2017,tech,hacked,2,Vice,Petah Tikva,Israel,32.0853,34.7818,"[32.0853, 34.7818]",2017-01-01
+173,Swedish Transport Agency,3000000,Jul,2017,government,poor security,5,The Local,Borlänge,Sweden,60.4849,15.4251,"[60.4849, 15.4251]",2017-07-01
+174,Hong Kong Registration & Electoral Office,3700000,Mar,2017,government,lost device,2,SCMP,Hong Kong,Hong Kong,22.3193,114.1694,"[22.3193, 114.1694]",2017-03-01
+177,Bell,1900000,May,2017,telecoms,hacked,1,CBC,Montreal,Canada,45.5017,-73.5673,"[45.5017, -73.5673]",2017-05-01
+178,Zomato,17000000,May,2017,web,hacked,4,HackRead,Gurugram,India,28.4595,77.0266,"[28.4595, 77.0266]",2017-05-01
+179,Imgur,1700000,May,2017,app,hacked,4,Imgur,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]",2017-05-01
+180,TIO Networks,1600000,Dec,2017,finance,hacked,4,Bleeping Computer,Vancouver,Canada,49.2827,-123.1207,"[49.2827, -123.1207]",2017-12-01
+183,Instagram,6000000,Sep,2017,web,hacked,1,The Verge,Menlo Park,USA,37.4529,-122.1817,"[37.4529, -122.1817]",2017-09-01
+184,Viacom,3000000,Sep,2017,web,hacked,4,The Hacker News,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2017-09-01
+185,Equifax,143000000,Sep,2017,finance,hacked,4,UK Gov,Atlanta,USA,33.749,-84.388,"[33.749, -84.388]",2017-09-01
+187,LinkedIn,117000000,May,2016,web,hacked,1,CNN,Sunnyvale,USA,37.3688,-122.0363,"[37.3688, -122.0363]",2016-05-01
+188,Tumblr,65000000,May,2016,web,hacked,1,Vice,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2016-05-01
+190,Mossack Fonseca,11500000,Apr,2016,misc,hacked,5,PanamaPapers,Panama City,Panama,8.9824,-79.5199,"[8.9824, -79.5199]",2016-04-01
+191,Philippines’ Commission on Elections,55000000,Apr,2016,government,hacked,5,Trend Micro,Manila,Philippines,14.5995,120.9842,"[14.5995, 120.9842]",2016-04-01
+192,Syrian government,274477,Apr,2016,government,hacked,1,Softpedia,Damascus,Syria,33.5138,36.2765,"[33.5138, 36.2765]",2016-04-01
+193,Minecraft,7000000,Apr,2016,gaming,hacked,1,BBC,Stockholm,Sweden,59.3293,18.0686,"[59.3293, 18.0686]",2016-04-01
+195,Banner Health,3700000,Aug,2016,health,hacked,3,Healthcare Informatics,Phoenix,USA,33.4484,-112.074,"[33.4484, -112.074]",2016-08-01
+196,Mail. ru,25000000,Aug,2016,web,hacked,2,ZD Net,Moscow,Russia,55.7558,37.6176,"[55.7558, 37.6176]",2016-08-01
+197,PayAsUGym,300000,Dec,2016,web,hacked,1,BBC News,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]",2016-12-01
+198,Lynda.com,9500000,Dec,2016,web,hacked,1,Neowin,Carpinteria,USA,34.3989,-119.5185,"[34.3989, -119.5185]",2016-12-01
+200,Wendy's,1025,Jul,2016,retail,hacked,3,Forbes,Dublin,USA,37.7022,-121.9358,"[37.7022, -121.9358]",2016-07-01
+203,World Check,2200000,Jun,2016,misc,poor security,3,The Stack,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]",2016-06-01
+204,Mutuelle Generale de la Police,112000,Jun,2016,health,inside job,5,BBC News,Paris,France,48.8566,2.3522,"[48.8566, 2.3522]",2016-06-01
+205,VK,171000000,Jun,2016,web,hacked,4,Motherboard,Saint Petersburg,Russia,59.9343,30.3351,"[59.9343, 30.3351]",2016-06-01
+206,KM.ru & Nival,1500000,Mar,2016,web,hacked,4,Motherboard,Moscow,Russia,55.7558,37.6176,"[55.7558, 37.6176]",2016-03-01
+207,Fling,40000000,May,2016,web,hacked,4,IBTimes,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]",2016-05-01
+208,MySpace,164000000,May,2016,web,hacked,1,Vice,Beverly Hills,USA,34.0696,-118.4058,"[34.0696, -118.4058]",2016-05-01
+209,Three,130000,Nov,2016,telecoms,hacked,2,Three,Maidenhead,United Kingdom,51.522,-0.72,"[51.522, -0.72]",2016-11-01
+210,Red Cross Blood Service,550000,Oct,2016,health,accident,4,ABC News,Melbourne,Australia,-37.8136,144.9631,"[-37.8136, 144.9631]",2016-10-01
+212,Dailymotion,85200000,Dec,2016,web,hacked,1,ZDNet,Paris,France,48.8566,2.3522,"[48.8566, 2.3522]",2016-12-01
+213,Weebly,43000000,Oct,2016,web,hacked,4,Tech Crunch,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]",2016-10-01
+214,Interpark,10000000,Jul,2016,web,hacked,2,NY times,Seoul,South Korea,37.5665,126.978,"[37.5665, 126.978]",2016-07-01
+216,Friend Finder Network,412000000,Nov,2016,web,hacked,1,ZDNet,Campbell,USA,37.2872,-121.949,"[37.2872, -121.949]",2016-11-01
+217,Brazzers,790724,Sep,2016,web,hacked,4,Vice,Luxembourg,Luxembourg,49.6116,6.1319,"[49.6116, 6.1319]",2016-09-01
+218,ClixSense,6600000,Sep,2016,web,hacked,5,Digital trends,Yuba City,USA,39.1404,-121.6169,"[39.1404, -121.6169]",2016-09-01
+219,Carefirst,1100000,May,2015,health,hacked,1,Krebs on Security,Baltimore,USA,39.2904,-76.6122,"[39.2904, -76.6122]",2015-05-01
+221,Premera,11000000,Mar,2015,health,hacked,5,Computer Weekly,Mountlake Terrace,USA,47.7915,-122.3076,"[47.7915, -122.3076]",2015-03-01
+223,Deep Root Analytics,198000000,Dec,2015,web,poor security,2,"Reuters, UpGuard",Washington,USA,38.8951,-77.0369,"[38.8951, -77.0369]",2015-12-01
+225,Invest Bank,40000,Dec,2015,finance,hacked,4,Daily Dot ,Sharjah,United Arab Emirates,25.3463,55.4209,"[25.3463, 55.4209]",2015-12-01
+226,Sanrio,3300000,Dec,2015,web,poor security,2,CSO Online,Tokyo,Japan,35.682839,139.759455,"[35.682839, 139.759455]",2015-12-01
+227,VTech,6400000,Dec,2015,web,hacked,5,The Guardian,Hong Kong,Hong Kong,22.3193,114.1694,"[22.3193, 114.1694]",2015-12-01
+228,Hacking Team,500000,Jul,2015,web,hacked,5,The Guardian,Milan,Italy,45.4642,9.19,"[45.4642, 9.19]",2015-07-01
+229,AshleyMadison.com,37000000,Jul,2015,web,hacked,1,Krebs on Security,Toronto,Canada,43.65107,-79.347015,"[43.65107, -79.347015]",2015-07-01
+230,US Office of Personnel Management (2nd Breach),21500000,Jul,2015,government,hacked,5,BBC News,Washington,USA,38.8951,-77.0369,"[38.8951, -77.0369]",2015-07-01
+231,US Office of Personnel Management,4000000,Jun,2015,government,hacked,2,Washington Post,Washington,USA,38.8951,-77.0369,"[38.8951, -77.0369]",2015-06-01
+232,Australian Immigration Department,30,Mar,2015,government,accident,4,The Guardian,Canberra,Australia,-35.2809,149.13,"[-35.2809, 149.13]",2015-03-01
+233,IRS,100000,May,2015,government,hacked,1,CNN,Washington,USA,38.8951,-77.0369,"[38.8951, -77.0369]",2015-05-01
+234,MSpy,400000,May,2015,app,hacked,2,Krebs on Security,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]",2015-05-01
+236,Securus Technologies,70000000,Nov,2015,web,hacked,5,The Intercept,Carrollton,USA,32.9756,-96.8892,"[32.9756, -96.8892]",2015-11-01
+237,TalkTalk,157000,Nov,2015,telecoms,hacked,2,BBC News,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]",2015-11-01
+238,Experian / T-mobile,15000000,Oct,2015,telecoms,hacked,3,Reuters,Costa Mesa,USA,33.6638,-117.9032,"[33.6638, -117.9032]",2015-10-01
+239,Slack,500000,Mar,2015,app,hacked,1,Tech Crunch,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]",2015-03-01
+240,CarPhone Warehouse,2400000,Aug,2015,telecoms,hacked,3,The Guardian,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]",2015-08-01
+243,UCLA Health,4500000,May,2015,health,hacked,4,Health IT Security,Los Angeles,USA,34.0522,-118.2437,"[34.0522, -118.2437]",2015-05-01
+245,AOL,2400000,Apr,2014,web,hacked,1,NBC News,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2014-04-01
+409,AOL,20000000,Aug,2006,web,accident,1,Tech Crunch,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2006-08-01
+417,AOL,92000000,Jun,2004,web,inside job,1,CNN,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2004-06-01
+246,Community Health Systems,4500000,Aug,2014,health,hacked,2,CNN,Franklin,USA,35.9251,-86.8689,"[35.9251, -86.8689]",2014-08-01
+247,Privatization Agency of the Republic of Serbia,5190396,Dec,2014,government,accident,2,Poverenik,Belgrade,Serbia,44.7866,20.4489,"[44.7866, 20.4489]",2014-12-01
+248,Sony Pictures,10000000,Dec,2014,misc,hacked,2,Buzzfeed,Culver City,USA,34.0219,-118.4814,"[34.0219, -118.4814]",2014-12-01
+340,Sony Pictures,1000000,Jun,2011,web,hacked,1,Mashable,Culver City,USA,34.0219,-118.4814,"[34.0219, -118.4814]",2011-06-01
+249,Indiana University,146000,Feb,2014,academic,poor security,2,Indiana University,Bloomington,USA,40.4842,-88.9937,"[40.4842, -88.9937]",2014-02-01
+250,Ebay,145000000,May,2014,web,hacked,1,Business Insider,San Jose,USA,37.3541,-121.9552,"[37.3541, -121.9552]",2014-05-01
+251,UPS,4000000,Aug,2014,retail,hacked,3,Time,Atlanta,USA,33.749,-84.388,"[33.749, -84.388]",2014-08-01
+252,European Central Bank,4000000,Jul,2014,finance,hacked,1,City am,Frankfurt,Germany,50.1109,8.6821,"[50.1109, 8.6821]",2014-07-01
+253,JP Morgan Chase,76000000,Oct,2014,finance,hacked,3,Deal Book,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2014-10-01
+406,JP Morgan Chase,2600000,May,2007,finance,lost device,3,PC World,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2007-05-01
+255,HSBC Turkey,2700000,Nov,2014,finance,hacked,4,Reuters,Istanbul,Turkey,41.0082,28.9784,"[41.0082, 28.9784]",2014-11-01
+256,Japan Airlines,750000,Sep,2014,transport,hacked,2,"WSJ, Japan Airlines",Tokyo,Japan,35.682839,139.759455,"[35.682839, 139.759455]",2014-09-01
+257,Staples,1160000,Dec,2014,retail,hacked,3,Fortune,Framingham,USA,42.2793,-71.4162,"[42.2793, -71.4162]",2014-12-01
+258,GMail,5000000,Sep,2014,web,hacked,1,The Next Web,Mountain View,USA,37.3861,-122.0839,"[37.3861, -122.0839]",2014-09-01
+259,Home Depot,56000000,Sep,2014,retail,hacked,3,Krebs on Security,Atlanta,USA,33.749,-84.388,"[33.749, -84.388]",2014-09-01
+260,Korea Credit Bureau,20000000,Jan,2014,finance,inside job,5,Security Week,Seoul,South Korea,37.5665,126.978,"[37.5665, 126.978]",2014-01-01
+261,Dominios Pizzas (France),600000,Jun,2014,retail,hacked,1,The Guardian,Paris,France,48.8566,2.3522,"[48.8566, 2.3522]",2014-06-01
+262,Mozilla,76000,Aug,2014,web,poor security,2,The Guardian,Mountain View,USA,37.3861,-122.0839,"[37.3861, -122.0839]",2014-08-01
+264,"Affinity Health Plan, Inc.",344579,Aug,2013,health,lost device,4,Proskauer,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2013-08-01
+265,Citigroup,150000,Jul,2013,finance,accident,2,Softpedia,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2013-07-01
+339,Citigroup,210000,Jun,2011,finance,hacked,3,PC World,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2011-06-01
+415,Citigroup,3900000,Jun,2005,finance,lost device,3,NY Times,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2005-06-01
+266,Tianya,40000000,Jul,2013,web,hacked,1,"Computer World, Hacker News",Hainan,China,19.5664,109.9487,"[19.5664, 109.9487]",2013-07-01
+267,Scribd,500000,Apr,2013,web,hacked,1,"Naked Security, NBC News",San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]",2013-04-01
+268,Living Social,50000000,Apr,2013,web,hacked,1,"Naked Security, New York Times",Washington,USA,38.8951,-77.0369,"[38.8951, -77.0369]",2013-04-01
+270,SnapChat,4600000,Jan,2013,web,hacked,2,BBC News,Santa Monica,USA,34.0194,-118.4912,"[34.0194, -118.4912]",2013-01-01
+271,University of Delaware,74000,Aug,2013,academic,hacked,2,University of Delaware,Newark,USA,40.7357,-74.1724,"[40.7357, -74.1724]",2013-08-01
+272,Central Hudson Gas & Electric,110000,Feb,2013,misc,hacked,3,eSecurity Planet,Poughkeepsie,USA,41.7004,-73.921,"[41.7004, -73.921]",2013-02-01
+274,"Crescent Health Inc., Walgreens",100000,Feb,2013,health,lost device,4,Healthcare IT News,Deerfield,USA,42.1711,-87.8445,"[42.1711, -87.8445]",2013-02-01
+275,Florida Department of Juvenile Justice,100000,Jan,2013,government,lost device,2,Data Breaches,Tallahassee,USA,30.4383,-84.2807,"[30.4383, -84.2807]",2013-01-01
+276,Advocate Medical Group,4000000,Aug,2013,health,lost device,2,Health IT Security,Downers Grove,USA,41.8089,-88.0112,"[41.8089, -88.0112]",2013-08-01
+277,OVH,200000,Jul,2013,web,hacked,2,OVH,Roubaix,France,50.6942,3.1746,"[50.6942, 3.1746]",2013-07-01
+278,Apple,275000,Jul,2013,tech,hacked,1,The Guardian,Cupertino,USA,37.323,-122.0322,"[37.323, -122.0322]",2013-07-01
+279,NASDAQ,500000,Jul,2013,finance,hacked,1,Reuters,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2013-07-01
+280,UbiSoft,58000000,Jul,2013,gaming,hacked,2,BBC News,Montreuil,France,48.8632,2.4485,"[48.8632, 2.4485]",2013-07-01
+281,Ubuntu,2000000,Jul,2013,tech,hacked,3,Ars Technica,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]",2013-07-01
+283,National Security Agency,1500000,Jun,2013,government,inside job,5,Business Insider,Fort Meade,USA,39.1096,-76.7446,"[39.1096, -76.7446]",2013-06-01
+285,Evernote,50000000,Mar,2013,web,hacked,1,"Wired, Digital Trends",Redwood City,USA,37.4852,-122.2364,"[37.4852, -122.2364]",2013-03-01
+286,Kirkwood Community College,125000,Apr,2013,academic,hacked,2,eSecurity Planet,Cedar Rapids,USA,41.9779,-91.6656,"[41.9779, -91.6656]",2013-04-01
+287,Yahoo Japan,22000000,May,2013,tech,hacked,1,Reuters,Tokyo,Japan,35.682839,139.759455,"[35.682839, 139.759455]",2013-05-01
+288,Drupal,1000000,May,2013,web,hacked,1,Ars Technica,Portland,USA,45.5051,-122.675,"[45.5051, -122.675]",2013-05-01
+289,TerraCom & YourTel,170000,May,2013,telecoms,accident,2,"Boing Boing, Wired",Oklahoma City,USA,35.4634,-97.5151,"[35.4634, -97.5151]",2013-05-01
+293,Vodafone,2000000,Sep,2013,telecoms,inside job,3,Security Week,Newbury,United Kingdom,51.3989,-1.327,"[51.3989, -1.327]",2013-09-01
+294,Adobe,38000000,Oct,2013,tech,hacked,3,Adobe,San Jose,USA,37.3541,-121.9552,"[37.3541, -121.9552]",2013-10-01
+297,Target,70000000,Dec,2013,retail,hacked,3,Huffington Post,Minneapolis,USA,44.9778,-93.265,"[44.9778, -93.265]",2013-12-01
+298,China Software Developer Network,6000000,Mar,2012,web,hacked,1,ZDNet,Beijing,China,39.9042,116.4074,"[39.9042, 116.4074]",2012-03-01
+299,Global Payments,1500000,Apr,2012,finance,hacked,3,Washington Post,Atlanta,USA,33.749,-84.388,"[33.749, -84.388]",2012-04-01
+300,South Carolina Government,228000,Apr,2012,health,inside job,4,The State,Columbia,USA,34.0007,-81.0348,"[34.0007, -81.0348]",2012-04-01
+302,California Department of Child Support Services,800000,Apr,2012,government,lost device,2,Business Insider,Sacramento,USA,38.5816,-121.4944,"[38.5816, -121.4944]",2012-04-01
+303,Emory Healthcare,315000,Apr,2012,health,lost device,4,Emory,Atlanta,USA,33.749,-84.388,"[33.749, -84.388]",2012-04-01
+304,Office of the Texas Attorney General,6500000,Apr,2012,government,accident,2,Raw Story,Austin,USA,30.2672,-97.7431,"[30.2672, -97.7431]",2012-04-01
+306,Blizzard,14000000,Aug,2012,gaming,hacked,2,Forbes,Irvine,USA,33.6846,-117.8265,"[33.6846, -117.8265]",2012-08-01
+307,New York State Electric & Gas,1800000,Jan,2012,misc,inside job,2,Data Breaches,Binghamton,USA,42.0987,-75.918,"[42.0987, -75.918]",2012-01-01
+308,Memorial Healthcare System,102153,Apr,2012,health,lost device,2,Modern Healthcare,Hollywood,USA,34.0928,-118.3287,"[34.0928, -118.3287]",2012-04-01
+309,Zappos,24000000,Jan,2012,web,hacked,2,Forbes,Las Vegas,USA,36.1699,-115.1398,"[36.1699, -115.1398]",2012-01-01
+311,KT Corp.,8700000,Jul,2012,telecoms,hacked,2,"Korea Times, CNet",Seoul,South Korea,37.5665,126.978,"[37.5665, 126.978]",2012-07-01
+313,Last.fm,43500000,Sep,2012,web,hacked,1,ZD Net,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]",2012-09-01
+314,"LinkedIn, eHarmony, Last.fm",8000000,Jun,2012,web,hacked,1,Cnet,Sunnyvale,USA,37.3688,-122.0363,"[37.3688, -122.0363]",2012-06-01
+315,Gamigo,8000000,Jul,2012,web,hacked,1,Forbes,Hamburg,Germany,53.5511,9.9937,"[53.5511, 9.9937]",2012-07-01
+318,Greek government,9000000,Nov,2012,government,hacked,2,Wired,Athens,Greece,37.9838,23.7275,"[37.9838, 23.7275]",2012-11-01
+319,South Carolina State Dept. of Revenue,3600000,Oct,2012,government,hacked,1,Information Week,Columbia,USA,34.0007,-81.0348,"[34.0007, -81.0348]",2012-10-01
+320,Dropbox,68700000,Aug,2012,web,hacked,1,The Telegraph,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]",2012-08-01
+321,New York City Health & Hospitals Corp.,1700000,Feb,2011,health,lost device,4,InfoRisk,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2011-02-01
+322,"Seacoast Radiology, PA",231400,Jan,2011,health,hacked,2,Fosters,New Hampshire,USA,43.1939,-71.5724,"[43.1939, -71.5724]",2011-01-01
+323,"South Shore Hospital, Massachusetts",800000,Sep,2011,health,lost device,5,Boston Globe,South Weymouth,USA,42.2209,-70.941,"[42.2209, -70.941]",2011-09-01
+324,Betfair,2300000,May,2011,web,hacked,3,FT,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]",2011-05-01
+325,"Ankle & foot Center of Tampa Bay, Inc.",156000,Jan,2011,health,hacked,4,Phi Privacy,Tampa,USA,27.9506,-82.4572,"[27.9506, -82.4572]",2011-01-01
+326,Yale University,43000,Aug,2011,academic,accident,2,NBC News,New Haven,USA,41.3082,-72.9282,"[41.3082, -72.9282]",2011-08-01
+327,Morgan Stanley Smith Barney,34000,Jul,2011,finance,lost device,3,ABC News,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2011-07-01
+329,Epsilon,3000000,Apr,2011,web,hacked,1,Guardian,Irving,USA,32.814,-96.9489,"[32.814, -96.9489]",2011-04-01
+330,Sony PSN,77000000,Apr,2011,gaming,hacked,1,Mashable,San Mateo,USA,37.5537,-122.2654,"[37.5537, -122.2654]",2011-04-01
+332,University of Wisconsin - Milwaukee,73000,Aug,2011,academic,hacked,2,ZDNet,Milwaukee,USA,43.0389,-87.9065,"[43.0389, -87.9065]",2011-08-01
+333,Stratfor,935000,Dec,2011,military,hacked,3,NYTimes,Austin,USA,30.2672,-97.7431,"[30.2672, -97.7431]",2011-12-01
+337,Bethesda Game Studios,200000,Jun,2011,gaming,hacked,1,PC World,Rockville,USA,39.0834,-77.1558,"[39.0834, -77.1558]",2011-06-01
+338,Sega,1290755,Jun,2011,gaming,hacked,2,ZDNet,Tokyo,Japan,35.682839,139.759455,"[35.682839, 139.759455]",2011-06-01
+342,Washington Post,1270000,Jul,2011,misc,hacked,2,PC Mag,Washington,USA,38.8951,-77.0369,"[38.8951, -77.0369]",2011-07-01
+343,Health Net - IBM,1900000,Mar,2011,health,lost device,3,IEEE Spectrum,Los Angeles,USA,34.0522,-118.2437,"[34.0522, -118.2437]",2011-03-01
+344,Eisenhower Medical Center,514330,Apr,2011,health,lost device,4,Data Breach Info,Rancho Mirage,USA,33.7385,-116.4084,"[33.7385, -116.4084]",2011-04-01
+345,Spartanburg Regional Healthcare System,400000,May,2011,health,lost device,4,GoUpstate,Spartanburg,USA,34.9496,-81.932,"[34.9496, -81.932]",2011-05-01
+346,NHS,8600000,Jun,2011,health,lost device,4,Alphr,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]",2011-06-01
+348,Sony Online Entertainment,24600000,May,2011,gaming,hacked,3,Computer Weekly,San Diego,USA,32.7157,-117.1611,"[32.7157, -117.1611]",2011-05-01
+349,Honda Canada,283000,May,2011,retail,hacked,2,Guelph Mercury,Markham,Canada,43.8561,-79.337,"[43.8561, -79.337]",2011-05-01
+351,Oregon Department of Motor Vehicles,1000000,May,2011,government,hacked,2,Data Breaches,Salem,USA,44.9429,-123.0351,"[44.9429, -123.0351]",2011-05-01
+352,Steam,35000000,Nov,2011,web,hacked,3,SC Mag,Bellevue,USA,47.6101,-122.2015,"[47.6101, -122.2015]",2011-11-01
+353,Restaurant Depot,200000,Nov,2011,retail,hacked,3,NBC News,College Point,USA,40.7862,-73.8454,"[40.7862, -73.8454]",2011-11-01
+354,Nexon Korea Corp,13200000,Nov,2011,web,hacked,2,Reuters,Seoul,South Korea,37.5665,126.978,"[37.5665, 126.978]",2011-11-01
+355,Nemours Foundation,1600000,Oct,2011,health,lost device,4,Law360,Jacksonville,USA,30.3322,-81.6557,"[30.3322, -81.6557]",2011-10-01
+356,Sutter Medical Foundation,4243434,Nov,2011,health,lost device,2,Trend Micro,Sacramento,USA,38.5816,-121.4944,"[38.5816, -121.4944]",2011-11-01
+358,"AvMed, Inc.",1220000,Feb,2010,health,lost device,2,Hack Notice,Miami,USA,25.7617,-80.1918,"[25.7617, -80.1918]",2010-02-01
+359,Blue Cross Blue Shield of Tennessee,1023209,May,2010,health,lost device,2,Data Breaches,Chattanooga,USA,35.0456,-85.3097,"[35.0456, -85.3097]",2010-05-01
+362,"Triple-S Salud, Inc.",398000,Nov,2010,health,lost device,4,Data Breaches,San Juan,Puerto Rico,18.4655,-66.1057,"[18.4655, -66.1057]",2010-11-01
+363,Ohio State University,760000,Dec,2010,academic,hacked,2,The Lantern,Columbus,USA,39.9612,-82.9988,"[39.9612, -82.9988]",2010-12-01
+364,"Emergency Healthcare Physicians, Ltd.",180111,May,2010,health,lost device,4,Healthcare Info Security,Lafayette,USA,30.2241,-92.0198,"[30.2241, -92.0198]",2010-05-01
+366,AT&T,114000,Jun,2010,telecoms,hacked,1,Guardian,Dallas,USA,32.7767,-96.797,"[32.7767, -96.797]",2010-06-01
+389,AT&T,113000,Jun,2008,telecoms,lost device,1,NetworkWorld,Dallas,USA,32.7767,-96.797,"[32.7767, -96.797]",2008-06-01
+367,Lincoln Medical & Mental Health Center,130495,Jun,2010,health,lost device,4,Alert Boot,Bronx,USA,40.8448,-73.8648,"[40.8448, -73.8648]",2010-06-01
+368,Educational Credit Management Corp,3300000,Mar,2010,finance,lost device,2,Wall Street Journal,Minneapolis,USA,44.9778,-93.265,"[44.9778, -93.265]",2010-03-01
+369,US Federal Reserve Bank of Cleveland,400000,Nov,2010,finance,hacked,3,Bank Info Security,Cleveland,USA,41.4993,-81.6944,"[41.4993, -81.6944]",2010-11-01
+371,Heartland,130000000,Jan,2009,finance,hacked,3,Dark Reading,Princeton,USA,40.3573,-74.6672,"[40.3573, -74.6672]",2009-01-01
+373,RockYou!,32000000,Dec,2009,web,hacked,1,Tech Crunch,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]",2009-12-01
+374,CheckFree Corporation,5000000,Jan,2009,finance,hacked,1,Computer World,Norcross,USA,33.9412,-84.2135,"[33.9412, -84.2135]",2009-01-01
+375,Network Solutions,573000,Jul,2009,web,hacked,3,Washington Post,Jacksonville,USA,30.3322,-81.6557,"[30.3322, -81.6557]",2009-07-01
+376,Virginia Prescription Monitoring Program,531400,May,2009,health,hacked,2,Digital Health,Richmond,USA,37.5407,-77.436,"[37.5407, -77.436]",2009-05-01
+377,University of California Berkeley,160000,May,2009,academic,hacked,3,Cnet,Berkeley,USA,37.8715,-122.273,"[37.8715, -122.273]",2009-05-01
+380,Compass Bank,1000000,Mar,2008,finance,inside job,3,Computer Weekly,Birmingham,USA,33.5207,-86.8025,"[33.5207, -86.8025]",2008-03-01
+381,Hannaford Brothers Supermarket Chain,4200000,Mar,2008,retail,hacked,3,NetworkWorld,Scarborough,USA,43.6777,-70.3573,"[43.6777, -70.3573]",2008-03-01
+382,University of Miami,2100000,Apr,2008,academic,lost device,3,Identity Theft,Coral Gables,USA,25.7215,-80.2684,"[25.7215, -80.2684]",2008-04-01
+383,BNY Mellon Shareowner Services,4500000,May,2008,finance,lost device,1,Reuters,New York City,USA,40.7128,-74.006,"[40.7128, -74.006]",2008-05-01
+384,Countrywide Financial Corp,2500000,Aug,2008,finance,inside job,2,LATimes,Calabasas,USA,34.1367,-118.6615,"[34.1367, -118.6615]",2008-08-01
+385,UK Home Office,84000,Aug,2008,government,lost device,2,Wikipedia,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]",2008-08-01
+386,RBS Worldpay,1500000,Dec,2008,finance,hacked,5,The Register,Atlanta,USA,33.749,-84.388,"[33.749, -84.388]",2008-12-01
+387,Auction.co.kr,18000000,Feb,2008,web,hacked,3,Dark Reading,Seoul,South Korea,37.5665,126.978,"[37.5665, 126.978]",2008-02-01
+388,GS Caltex,11100000,Sep,2008,misc,inside job,2,The Dong-a Ilbo,Seoul,South Korea,37.5665,126.978,"[37.5665, 126.978]",2008-09-01
+390,Stanford University,72000,Jun,2008,academic,lost device,2,SFGate,Stanford,USA,37.4241,-122.1661,"[37.4241, -122.1661]",2008-06-01
+391,University of Utah Hospitals & Clinics,2200000,Jun,2008,academic,lost device,4,Salt Lake Tribune,Salt Lake City,USA,40.7608,-111.891,"[40.7608, -111.891]",2008-06-01
+392,Chile Ministry Of Education,6000000,May,2008,government,hacked,1,BBC News,Santiago,Chile,-33.4489,-70.6693,"[-33.4489, -70.6693]",2008-05-01
+393,Texas Lottery,89000,Nov,2008,government,inside job,2,Houston Chronicle,Austin,USA,30.2672,-97.7431,"[30.2672, -97.7431]",2008-11-01
+394,Starbucks,97000,Nov,2008,retail,lost device,2,Info Watch,Seattle,USA,47.6062,-122.3321,"[47.6062, -122.3321]",2008-11-01
+395,UK Ministry of Defence,1700000,Oct,2008,government,lost device,5,BBC News,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]",2008-10-01
+396,"T-Mobile, Deutsche Telecom",17000000,Oct,2008,telecoms,lost device,1,FT,Bonn,Germany,50.7374,7.0982,"[50.7374, 7.0982]",2008-10-01
+397,Norwegian Tax Authorities,3950000,Sep,2008,government,accident,2,Info Watch,Oslo,Norway,59.9139,10.7522,"[59.9139, 10.7522]",2008-09-01
+398,Service Personnel and Veterans Agency (UK),50500,Sep,2008,government,lost device,2,BBC News,United Kingdom,United Kingdom,55.3781,-3.436,"[55.3781, -3.436]",2008-09-01
+399,Monster.com,1600000,Aug,2007,web,hacked,2,BBC News,Weston,USA,26.1004,-80.3998,"[26.1004, -80.3998]",2007-08-01
+400,Driving Standards Agency,3000000,Dec,2007,government,lost device,2,BBC News,Bristol,United Kingdom,51.4545,-2.5879,"[51.4545, -2.5879]",2007-12-01
+401,Fidelity National Information Services,8500000,Jul,2007,finance,inside job,3,PCWorld,Jacksonville,USA,30.3322,-81.6557,"[30.3322, -81.6557]",2007-07-01
+402,City and Hackney Teaching Primary Care Trust,160000,Dec,2007,government,lost device,2,Computer Weekly,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]",2007-12-01
+403,Gap Inc,800000,Sep,2007,retail,lost device,2,PC World,San Francisco,USA,37.7749,-122.4194,"[37.7749, -122.4194]",2007-09-01
+404,Dai Nippon Printing,8637405,Mar,2007,retail,inside job,1,Compare Business Products,Tokyo,Japan,35.682839,139.759455,"[35.682839, 139.759455]",2007-03-01
+405,TK / TJ Maxx,94000000,Mar,2007,retail,hacked,3,ZD Net,Framingham,USA,42.2793,-71.4162,"[42.2793, -71.4162]",2007-03-01
+407,UK Revenue & Customs,25000000,Nov,2007,government,lost device,1,BBC News,London,United Kingdom,51.5074,-0.1278,"[51.5074, -0.1278]",2007-11-01
+408,TD Ameritrade,6300000,Sep,2007,finance,hacked,1,"Wired, CBNC",Omaha,USA,41.2565,-95.9345,"[41.2565, -95.9345]",2007-09-01
+410,US Dept of Vet Affairs,26500000,Jul,2006,government,lost device,2,"GCN, US Gov",Washington,USA,47.7511,-120.7401,"[47.7511, -120.7401]",2006-07-01
+411,Automatic Data Processing,125000,Jul,2006,finance,poor security,2,ABC News,Roseland,USA,40.8201,-74.3024,"[40.8201, -74.3024]",2006-07-01
+412,KDDI,4000000,Jun,2006,telecoms,hacked,1,Computer World,Tokyo,Japan,35.682839,139.759455,"[35.682839, 139.759455]",2006-06-01
+413,Hewlett Packard,200000,Mar,2006,tech,lost device,2,Computer Weekly,Palo Alto,USA,37.4419,-122.143,"[37.4419, -122.143]",2006-03-01
+414,Ameritrade Inc.,200000,Apr,2005,finance,lost device,2,NBC,Omaha,USA,41.2565,-95.9345,"[41.2565, -95.9345]",2005-04-01

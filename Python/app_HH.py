@@ -3,14 +3,11 @@
 #################################################
 
 # Import dependencies
-import numpy as np
-
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func, text
-
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 
 
 #################################################
@@ -46,6 +43,7 @@ def welcome():
     return (
         f"Available Routes:<br/>"
         f"/api/v1.0/data_breaches<br/>"
+        # f"/api/v1.0/data_breach_visualisation<br/>"
     )
 
 #################################################
@@ -81,7 +79,8 @@ def data_breaches():
             'country': row.country,
             'latitude': row.latitude,
             'longitude': row.longitude,
-            'coordinates': row.coordinates
+            'coordinates': row.coordinates,
+            'date': row.date
         }
         # Append dictionaries to List
         data_list.append(data_dict)
@@ -92,6 +91,12 @@ def data_breaches():
     
     # JSONify the data and return it
     return response
+
+#################################################
+
+# @app.route("/api/v1.0/data_breach_visualisation")
+# def data_breach_visualisation():
+#     return render_template("index.html")
 
 #################################################
 
