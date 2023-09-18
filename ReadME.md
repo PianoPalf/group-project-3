@@ -60,6 +60,7 @@ Hajar
 ### Part 3
 Priya
  3. Created a bubble chart and pie chart
+
     * I did this.<br>
     * I did this.<br>
     * I did this.<br>
@@ -76,8 +77,8 @@ Taryn
     * I did this.<br>
     * I did this.<br>
 
-
-  __Findings and Summary__
+***
+## __Findings and Summary__
 
  
  <img width="321" alt="image" src="https://github.com/">
