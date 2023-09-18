@@ -1,7 +1,7 @@
 # Group project 3
 ## <i>An in-depth look at the worlds biggest databreaches across the world over time, type and industry.</i>
 
-<img width="1440" alt="databreach_image" src="https://github.com/Tarynfo1/belly-button-challenge/blob/392a69e46dcbf6a7225bef728568b1e3a9326be7/Images/bellybuttonclean.png">
+<img width="1440" alt="databreach_image" src="https://github.com/PianoPalf/group-project-3/blob/c810670637adb46ae56fe4682050bddcc366ff5b/Images/download.png">
 
 ## Dashboard
 * Links to a dashboard containing several different plots to display databreach details
