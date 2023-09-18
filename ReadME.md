@@ -73,6 +73,7 @@ Priya
 Taryn
 
 For this section of the dashboard, the user selects an industry sector from the drop down menu and a line chart reflects  the correlation between data breaches over time by the amount of breaches. Secondary, a bar chart reflects the severity of the data breach from 1 - 5 corresponding to the following:
+
     1. Just email address/Online information
     2. SSN/Personal details
     3. Credit card information
