@@ -74,6 +74,7 @@ def data_breaches():
             'sector': row.sector,
             'method': row.method,
             'data_sensitivity': row.data_sensitivity,
+            'story': row.story,
             'source_name': row.source_name,
             'city': row.city,
             'country': row.country,

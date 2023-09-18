@@ -169,7 +169,7 @@ function getData(){
         title: 'Data Breaches Over Time',
         font: font,
         xaxis: {title: 'year'},
-        yaxis: {title: 'breaches', range: [0, 30]},
+        yaxis: {title: 'breaches', range: [0, 20]},
         margin: {pad: 5}
       };
       
@@ -179,7 +179,7 @@ function getData(){
 
     ////////////////// HORIZONTAL BAR CHART //////////////////
     // Groupby Data Sensitivity
-    const dataSensGrouped = _.groupBy(selectedSector, 'data_sensitivity');
+    let dataSensGrouped = _.groupBy(selectedSector, 'data_sensitivity');
     // Print Data Sensitivity Grouped data
     console.log('Grouped Data Sensitivities: ', dataSensGrouped)
 
@@ -199,7 +199,7 @@ function getData(){
         //text: chartData.labels.slice(0,10).reverse(),
         type: "bar",
         orientation: "h",
-        marker: {color: color}
+        marker: {color: color.slice(0,5)}
     };
       
     // Set Bar Chart Data to Trace
@@ -256,15 +256,15 @@ function getData(){
         mode: 'markers',
         x: dateArray,
         y: combinedObject.data_sensitivity,
-        text: combinedObject.organisation,
+        text: combinedObject.story,
         marker: {
           color: color,
-          //color: combinedObject.id.reverse(),
           size: combinedObject.records_lost,
-          hovertext: combinedObject.organisation,
           showscale: false,
           sizeref: 4000000
-        }
+        },
+        hovertemplate: "<b>%{customdata}</b><br>%{text}<extra></extra>",
+        customdata: combinedObject.organisation
       };
       
       // Set Bubble Chart Data to Trace
@@ -283,5 +283,5 @@ function getData(){
       
       // Plot Bubble Chart
       Plotly.newPlot("bubbleChart", bubbleData, bubbleLayout);
-    
+
 }});
