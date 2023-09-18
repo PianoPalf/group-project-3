@@ -1,5 +1,5 @@
 # Group project 3
-## <i>An in-depth look at the worlds biggest databreaches across the world over time, type and industry.</i>
+## <i>An in-depth look at the worlds biggest databreaches over time, type and industry.</i>
 
 <img width="1440" alt="databreach_image" src="https://github.com/PianoPalf/group-project-3/blob/c810670637adb46ae56fe4682050bddcc366ff5b/Images/download.png">
 
@@ -43,24 +43,27 @@
 ### Part 1 
 Sam
 1. Cleansed data and created dataframe and initial drop down menu
-
+    * I did this.<br>
+    * I did this.<br>
+    * I did this.<br>
+    * I did this.<br>
 ### Part 2
 Hajar
  2. Created a Flask API.
-    * I did this.
-    * I did this.
-    * I did this.
-    * I did this..
+    * I did this.<br>
+    * I did this.<br>
+    * I did this.<br>
+    * I did this.<br>
     
     <img width="366" alt="image" src="https://github.com/">
 
 ### Part 3
 Priya
  3. Created a bubble chart and pie chart
-    * I did this.
-    * I did this.
-    * I did this.
-    * I did this.
+    * I did this.<br>
+    * I did this.<br>
+    * I did this.<br>
+    * I did this.<br>
     
     <img width="913" alt="image" src="https://github.com/">
 
@@ -68,12 +71,13 @@ Priya
 Taryn
 4. Created a line chart and drop down menu
 
-  5. Display each key-value pair from the metadata JSON object somewhere on the page.
-  
-  <img width="129" alt="image" src="https://github.com/">
+    * I did this.<br>
+    * I did this.<br>
+    * I did this.<br>
+    * I did this.<br>
 
 
-  __Findings__
+  __Findings and Summary__
 
  
  <img width="321" alt="image" src="https://github.com/">
