@@ -1,5 +1,5 @@
 # Group project 3
-## <i>An in-depth look at the worlds biggest databreaches over time, type and industry.</i>
+## <i>An in-depth look at the worlds biggest databreaches since the year 2000 by industry sector.</i>
 
 <img width="1440" alt="databreach_image" src="https://github.com/PianoPalf/group-project-3/blob/c810670637adb46ae56fe4682050bddcc366ff5b/Images/download.png">
 
@@ -37,6 +37,7 @@
 - D3 Library
 - Javascript
 - HTML/CSS
+- Lodash (new JS library for the challenge)
 ***
 ## Project details
 
@@ -70,12 +71,24 @@ Priya
 
 ### Part 4
 Taryn
-4. Created a line chart and drop down menu
+For this section of the dashboard, the user selects an industry sector from the drop down menu and a line chart reflects  the correlation between data breaches over time by the amount of breaches. Secondary, a bar chart reflects the severity of the data breach from 1 - 5 corresponding to the following:
 
-    * I did this.<br>
-    * I did this.<br>
-    * I did this.<br>
-    * I did this.<br>
+    1. Just email address/Online information
+    2. SSN/Personal details
+    3. Credit card information
+    4. Health & other personal records
+    5. Full details
+
+An example of the line chart showing the decrease of data breaches over time in the app industry sector
+ <img width="321" alt="image" src="https://github.com/PianoPalf/group-project-3/blob/984a6d2923ed84cdb03c73010ee860bf3aaa664d/Images/line_chart_deacrease.png">
+
+ An example of the bar chart showing the severity of data breaches over time in the app industry sector
+ <img width="321" alt="image" src="https://github.com/PianoPalf/group-project-3/blob/984a6d2923ed84cdb03c73010ee860bf3aaa664d/Images/line_chart_deacrease.png">
+
+__Methodology__
+To create the charts, used the countby function by year and used Lodash countby and the user-selected array. The trace was then set setting x-values as years and y for the number of breaches. We then created the line layout and set the range using Lodash.
+
+For the bar chart we used groupby sensitivity, using ```DatasenseSum``` which adds the groupby objects together. 
 
 ***
 ## __Findings and Summary__
@@ -85,7 +98,7 @@ Taryn
  
 
 ***
-## Acknowledgements
+## Resources and Acknowledgements
 - Reference assisted in the following code snippet
 ```
           example: code,
