@@ -81,11 +81,11 @@ For this section of the dashboard, the user selects an industry sector from the 
     4. Health & other personal records
     5. Full details
 
-An example of the line chart showing the decrease of data breaches over time in the app industry sector:
- <img width="450" alt="image" src="https://github.com/PianoPalf/group-project-3/blob/984a6d2923ed84cdb03c73010ee860bf3aaa664d/Images/line_chart_deacrease.png">
+An example of the line chart showing the erratic changes of data breaches over time in the government industry sector:
+ <img width="450" alt="image" src="https://github.com/PianoPalf/group-project-3/blob/1c017a0aa6faab3943eb950180abf3e43566b89c/Images/line_gov%20(2).png">
 
  An example of the bar chart showing the severity of data sensitivity of breaches by total breaches in the health industry sector, the most breaches are '4' which correlates to 'Health & other personal records':
- <img width="450" alt="image" src="https://github.com/PianoPalf/group-project-3/blob/b9fff181cd257a31d4e5bba5139bbaa0d743b7d9/Images/health_breaches.png">
+ <img width="350" alt="image" src="https://github.com/PianoPalf/group-project-3/blob/1c017a0aa6faab3943eb950180abf3e43566b89c/Images/bar_health.png">
 
 __Methodology__
 To create the charts, used the countby function by year and used Lodash countby and the user-selected array. The trace was then set setting x-values as years and y for the number of breaches. We then created the line layout and set the range using Lodash.
