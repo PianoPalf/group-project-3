@@ -50,13 +50,14 @@ Sam
     * I did this.<br>
 ### Part 2
 Hajar
- 2. Created a Flask API.
-    * I did this.<br>
-    * I did this.<br>
-    * I did this.<br>
-    * I did this.<br>
+
+For this section, a Flask API was created using SQLalchemy. We imported the automap feature, Flask, jsonify. 
+    * Reflected the database into a new model
+    * Set up the database
+    * Reflected the tables
+    * Set the session variables and then set the Flask routes
     
-    <img width="366" alt="image" src="https://github.com/">
+    <img width="366" alt="image" src="https://github.com/PianoPalf/group-project-3/blob/2774022396a63db65394b779ccdbe8d4f14657ad/Images/FlaskAPI.png">
 
 ### Part 3
 Priya
@@ -108,4 +109,29 @@ For the bar chart we used groupby sensitivity, using ```DatasenseSum``` which ad
 - Reference assisted in the following code snippet
 ```
     example: code,
+- Reference assisted in the following code snippet
 ```
+          example: code,
+```
+
+- - Reference assisted in the following code snippet
+```
+          example: code,
+```
+
+- Reference assisted in the following code snippet
+```
+    example: code,- Reference assisted in the following code snippet
+```
+          example: code,
+```
+
+- Reference source for data set https://informationisbeautiful.net/visualizations/worlds-biggest-data-breaches-hacks/
+
+- Reference source for the data set for Dashboard https://docs.google.com/spreadsheets/d/1i0oIJJMRG-7t1GT-mr4smaTTU7988yXVz8nPlwaJ8Xk/edit#gid=2
+
+- Reference source for Lodash JS library 
+https://lodash.com/
+
+- Reference source for Flask and MongoDB database creation  https://flask-pymongo.readthedocs.io/en/latest/
+https://stackoverflow.com/questions/48236087/implementing-mongodb-search-engine-api-in-flask
