@@ -12,13 +12,17 @@ console.log("Data Promise: ",dataPromise);
 
 // Set Global Variables
 let user_choice;
-//let color = ['#440154', '#482677','#404788','#33638d','#287d8e','#1f968b','#29af7f','#55c667','#73d055']
-//let color= ['#a50026','#d73027','#f46d43','#fdae61','#fee090','#e0f3f8','#abd9e9','#74add1','#4575b4','#313695']
-//let color = ['#29066b','#7d3ac1','#af4bce','#db4cb2','#eb548c','#ea7369','#f0a58f','#fceae6']
-let color = ['#142459','#176ba0','#19aade','#1ac9e6','#18d4d4','#1de4bd','#6dfdd2','#c7f9ee'];
+let pieColor = ['#142459','#176ba0','#19aade','#1ac9e6','#18d4d4','#1de4bd','#6dfdd2','#c7f9ee'];
+let color = ['#0099bb','#0277d7','#34A853','#ffb908','#e84856','#8d8cd9','#ea035e','#f7650b'];
 const font = {family: 'Helvetica, sans-serif', weight: 'light',
-              size: 16, color: '#5f5f5f'}
+              size: 16, color: 'white'};
 
+// Map Specific Color to Data Sensitivity Value
+let dSensColors = [[1, color[0]],
+                   [2, color[1]],  
+                   [3, color[2]],
+                   [4, color[3]],
+                   [5, color[4]]];
 
 ////////// FETCH JSON DATA & PLOT INTERACTIVE CHARTS /////////
 //////////////////////////////////////////////////////////////
@@ -98,7 +102,7 @@ function getData(){
     
     // Populate Sector Info
     let demoText = `<b>Total Breaches:</b> ${totalBreaches}<br><br>\
-                    <b>Records Lost:</b> ${recordsLost.toLocaleString()}<br><br>\
+                    <b>Total Records Lost:</b> ${recordsLost.toLocaleString()}<br><br>\
                     <b>Avg. Records Lost:</b> ${avgRecordsLost.toLocaleString()}<br><br>\
                     <b>Avg. Data Sensitivity:</b> ${avgDataSens.toFixed(2)}<br><br>\
                     <b>Worst Breach:</b> ${worstBreach[0].organisation}<br>${worstBreach[0].month}, ${worstBreach[0].year}`
@@ -123,15 +127,17 @@ function getData(){
         values: pie_values,
         type: 'pie',
         marker: {
-          colors: color.slice(0,5)
+          colors: pieColor.slice(0,5)
         },
       }];
     
     // Set Pie Chart Layout  
     let pieLayout = {
         title: 'Method of Data Breaches',
-        font: font
-    };
+        font: font,
+        plot_bgcolor: '#313348', 
+        paper_bgcolor: '#313348',
+      };
     
     // Plot Pie Chart
     Plotly.newPlot('pieChart', pieData, pieLayout);
@@ -154,7 +160,7 @@ function getData(){
         mode: 'lines',
         type: 'scatter',
         marker: {
-          color: color[2]
+          color: color[1]
         },
         line: {
           shape: 'linear'
@@ -168,9 +174,11 @@ function getData(){
     let lineLayout = {
         title: 'Data Breaches Over Time',
         font: font,
-        xaxis: {title: 'year'},
-        yaxis: {title: 'breaches', range: [0, 20]},
-        margin: {pad: 5}
+        xaxis: {title: 'year', showgrid: true, gridcolor: '#3b3d56'},
+        yaxis: {title: 'breaches', range: [0, 20], showgrid: true, gridcolor: '#3b3d56'},
+        plot_bgcolor: '#313348', 
+        paper_bgcolor: '#313348', 
+        //margin: {pad: 5}
       };
       
     // Plot Line Chart
@@ -191,26 +199,45 @@ function getData(){
     // Set Variables for Bar Chart Labels and Values 
     let barLabels = Object.keys(dataSensSum)
     let barValues = Object.values(dataSensSum)
+
+    // Create an Array containing each Data Sensitivity Description (unique values)
+    let uniqueDesc = _.uniqBy(data, 'data_sens_desc').map(key => key.data_sens_desc);
+    // Print Unique dSens to console
+    console.log('Unique Descriptions: ', uniqueDesc);
+    let dSensDesc = [uniqueDesc[0], uniqueDesc[1], uniqueDesc[3], uniqueDesc[4], uniqueDesc[2]]
+    // Print corrected dSens to console
+    console.log('Corrected Descriptions: ', dSensDesc);
+
+    // Create Array of Colors based Data Sensitivity Values
+    let barColors = barLabels.map(value => {
+      // Loop through colors to assign color based on value
+      for (let i = 0; i < dSensColors.length; i++) {
+          if (value <= dSensColors[i][0]) {
+              return dSensColors[i][1];}}
+    });
     
     // Set Trace for Bar Chart
     let traceBar = {
-        x: barValues.reverse(),
-        y: barLabels.reverse(),
+        x: barValues,
+        y: barLabels,
         //text: chartData.labels.slice(0,10).reverse(),
         type: "bar",
         orientation: "h",
-        marker: {color: color.slice(0,5)}
+        marker: {color: barColors},
+        hovertext: dSensDesc
     };
       
     // Set Bar Chart Data to Trace
     let barData = [traceBar];
-    
+
     // Set Bar Chart Layout Parameters
     let barLayout = {
         title: `Total Breaches by Data Sensitivity`,
         font: font,
-        xaxis: {title: 'total breaches'},
-        yaxis: {title: 'data sensitivity', automargin: true, autotick: false},
+        xaxis: {title: 'total breaches', showgrid: true, gridcolor: '#3b3d56'},
+        yaxis: {title: 'data sensitivity', automargin: true, autotick: false, showgrid: true, gridcolor: '#3b3d56'},
+        plot_bgcolor: '#313348', 
+        paper_bgcolor: '#313348', 
         margin: {pad: -10}
     };
       
@@ -238,8 +265,7 @@ function getData(){
           if (!combinedObject[key]) {
             combinedObject[key] = [];
           }
-          combinedObject[key] = _.concat(combinedObject[key], _.map(group, key));
-        });
+          combinedObject[key] = _.concat(combinedObject[key], _.map(group, key));});
     });
     
     // Check Combined Object for Plotting
@@ -250,6 +276,14 @@ function getData(){
     // Print 'date' array to console
     console.log('Date Array: ', dateArray)
 
+    // Create Array of Colors based Data Sensitivity Values
+    let bubbleColors = combinedObject.data_sensitivity.map(value => {
+        // Loop through colors to assign color based on value
+        for (let i = 0; i < dSensColors.length; i++) {
+            if (value <= dSensColors[i][0]) {
+                return dSensColors[i][1];}}
+    });
+
     // Set Trace for Bubble Chart
     let traceBubble = {
         type: "scatter",
@@ -258,11 +292,10 @@ function getData(){
         y: combinedObject.data_sensitivity,
         text: combinedObject.story,
         marker: {
-          color: color,
+          color: bubbleColors,
           size: combinedObject.records_lost,
           showscale: false,
-          sizeref: 4000000
-        },
+          sizeref: 4000000},
         hovertemplate: "<b>%{customdata}</b><br>%{text}<extra></extra>",
         customdata: combinedObject.organisation
       };
@@ -277,8 +310,10 @@ function getData(){
         showlegend: false,
         height: 600,
         width: 1140,
-        xaxis: {title: {text: "year"}},
-        yaxis: {title: {text: "data sensitivity"}}
+        xaxis: {title: {text: "year"}, showgrid: true, gridcolor: '#3b3d56'},
+        yaxis: {title: {text: "data sensitivity"}, showgrid: true, gridcolor: '#3b3d56', range: [0, 5.9]},
+        plot_bgcolor: '#313348',
+        paper_bgcolor: '#313348'
       };
       
       // Plot Bubble Chart

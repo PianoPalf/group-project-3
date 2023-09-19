@@ -28,17 +28,29 @@ p {
   body {
      /* Replace with the actual path to your image file */
     /*background-image: url('mainframe_background.jpg');*/
-    background-color: rgb(225, 227, 227);
+    /*background-color: rgb(225, 227, 227);*/
+    background-color: #2a2b3d;
     background-size: cover; /* Adjust as needed */
     background-repeat: no-repeat; /* Optional, prevents image repetition */
   }
   /* Style the jumbotron */
   .jumbotron {
-    background-color: #176ba0; /* Blue background */
+    /*background-color: #176ba0; /* Blue background */
+    background-color: #3b3d56;
     color: #fff; /* White text color */
     padding: 20px;
     border-radius: 5px;
+    
   }
   
-
   
+ /*Apply rounded corners to Plotly plot elements */
+.panel-body {
+  background-color: #313348;
+  color: #ffffff
+}
+
+/*#sel-Dataset {
+  background-color: #6f6485;
+  color: #ffffff;
+}
