@@ -42,7 +42,7 @@
 ## Project details
 
 ### Part 1 
-Sam
+## Sam
 1. Cleansed data and created dataframe and initial drop down menu
     * I did this.<br>
     * I did this.<br>
@@ -51,7 +51,7 @@ Sam
 ***
 
 ### Part 2
-Hajar<br>
+## Hajar<br>
 ​
 For this section, a Flask API was created using SQLalchemy. We imported the automap feature, Flask, jsonify.<br><br>
 ​
@@ -65,7 +65,8 @@ For this section, a Flask API was created using SQLalchemy. We imported the auto
 ***
 
 ### Part 3
-Priya<br>
+## Priya<br>
+
 Created a bubble chart and pie chart<br>
 ## Pie chart
 ​
@@ -96,20 +97,20 @@ Slice size directly correlates to the prevalence of each breach method within th
 ​
 This section of the dashboard offers users an advanced analytical tool for in-depth exploration of data breaches within specific industry sectors.<br>
 ​
-Key Features:<br>
+Key Features:<br><br>
 ​
-1.Bubble Chart Visualization:<br>
+1. Bubble Chart Visualization:<br>
 ​
 The centerpiece of this section is an advanced bubble chart. This visually appealing chart offers a sophisticated representation of data breach incidents within the selected industry sector.<br>
 ​
-2.Bubble Attributes:<br>
+2. Bubble Attributes:<br>
 ​
 Each bubble within the chart encapsulates a wealth of information:<br>
-1.Data Sensitivity: Bubble color is indicative of data sensitivity, allowing users to distinguish between breaches involving highly sensitive data and those of a less sensitive nature.<br>
+1. Data Sensitivity: Bubble color is indicative of data sensitivity, allowing users to distinguish between breaches involving highly sensitive data and those of a less sensitive nature.<br>
 ​
-2.Year of Breach: The x-axis position of each bubble corresponds to the year in which the breach occurred, facilitating the examination of trends over time.<br>
+2. Year of Breach: The x-axis position of each bubble corresponds to the year in which the breach occurred, facilitating the examination of trends over time.<br>
 ​
-3.Records Lost: The size of each bubble is directly proportional to the number of records lost during the respective data breach. Larger bubbles represent incidents involving a significant quantity of lost records.<br>
+3. Records Lost: The size of each bubble is directly proportional to the number of records lost during the respective data breach. Larger bubbles represent incidents involving a significant quantity of lost records.<br>
 
 ***
 
