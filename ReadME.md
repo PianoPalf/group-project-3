@@ -51,13 +51,14 @@ Sam
 ### Part 2
 Hajar
 
-For this section, a Flask API was created using SQLalchemy. We imported the automap feature, Flask, jsonify. 
+For this section, a Flask API was created using SQLalchemy. We imported the automap feature, Flask, jsonify.
+
     * Reflected the database into a new model
     * Set up the database
     * Reflected the tables
     * Set the session variables and then set the Flask routes
     
-    <img width="366" alt="image" src="https://github.com/PianoPalf/group-project-3/blob/2774022396a63db65394b779ccdbe8d4f14657ad/Images/FlaskAPI.png">
+<img width="366" alt="image" src="https://github.com/PianoPalf/group-project-3/blob/2774022396a63db65394b779ccdbe8d4f14657ad/Images/FlaskAPI.png">
 
 ### Part 3
 Priya
@@ -82,10 +83,12 @@ For this section of the dashboard, the user selects an industry sector from the 
     5. Full details
 
 An example of the line chart showing the erratic changes of data breaches over time in the government industry sector:
- <img width="450" alt="image" src="https://github.com/PianoPalf/group-project-3/blob/1c017a0aa6faab3943eb950180abf3e43566b89c/Images/line_gov%20(2).png">
+
+ <img width="400" alt="image" src="https://github.com/PianoPalf/group-project-3/blob/1c017a0aa6faab3943eb950180abf3e43566b89c/Images/line_gov%20(2).png">
 
  An example of the bar chart showing the severity of data sensitivity of breaches by total breaches in the health industry sector, the most breaches are '4' which correlates to 'Health & other personal records':
- <img width="350" alt="image" src="https://github.com/PianoPalf/group-project-3/blob/1c017a0aa6faab3943eb950180abf3e43566b89c/Images/bar_health.png">
+
+ <img width="400" alt="image" src="https://github.com/PianoPalf/group-project-3/blob/1c017a0aa6faab3943eb950180abf3e43566b89c/Images/bar_health.png">
 
 __Methodology__
 To create the charts, used the countby function by year and used Lodash countby and the user-selected array. The trace was then set setting x-values as years and y for the number of breaches. We then created the line layout and set the range using Lodash.
