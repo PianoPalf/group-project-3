@@ -40,7 +40,7 @@
 - Lodash (new JS library for the challenge)
 ***
 ## Project details
-​
+
 ### Part 1 
 Sam
 1. Cleansed data and created dataframe and initial drop down menu
@@ -48,89 +48,96 @@ Sam
     * I did this.<br>
     * I did this.<br>
     * I did this.<br>
+***
+
 ### Part 2
-Hajar
+Hajar<br>
 ​
-For this section, a Flask API was created using SQLalchemy. We imported the automap feature, Flask, jsonify.
+For this section, a Flask API was created using SQLalchemy. We imported the automap feature, Flask, jsonify.<br><br>
 ​
-    * Reflected the database into a new model
-    * Set up the database
-    * Reflected the tables
+    * Reflected the database into a new model<br>
+    * Set up the database<br>
+    * Reflected the tables<br>
     * Set the session variables and then set the Flask routes
     
-<img width="366" alt="image" src="https://github.com/PianoPalf/group-project-3/blob/2774022396a63db65394b779ccdbe8d4f14657ad/Images/FlaskAPI.png">
+<img width="366" alt="image" src="https://github.com/PianoPalf/group-project-3/blob/2774022396a63db65394b779ccdbe8d4f14657ad/Images/FlaskAPI.png"><br>
 ​
+***
+
 ### Part 3
-Priya
- 3. Created a bubble chart and pie chart
- ### Pie chart
+Priya<br>
+Created a bubble chart and pie chart<br>
+## Pie chart
 ​
-1.Dashboard Section: Data Breach Analysis by Industry Sector
+1.Dashboard Section: Data Breach Analysis by Industry Sector<br>
 ​
-This section of the dashboard offers users an interactive exploration of data breaches within various industry sectors. Users have the capability to select a specific industry sector from a dropdown menu. Upon selection, the dashboard dynamically responds by providing a comprehensive analysis of data breaches unique to the chosen sector.
+This section of the dashboard offers users an interactive exploration of data breaches within various industry sectors. Users have the capability to select a specific industry sector from a dropdown menu. Upon selection, the dashboard dynamically responds by providing a comprehensive analysis of data breaches unique to the chosen sector.<br>
 ​
-Key Features:
+_Key Features:_<br>
 ​
-1.Industry Sector Selection:
+1.Industry Sector Selection:<br>
 ​
-Users can select a specific industry sector from the dropdown menu. This intuitive interface element serves as the gateway to exploring data breach insights tailored to their sector of interest.
+Users can select a specific industry sector from the dropdown menu. This intuitive interface element serves as the gateway to exploring data breach insights tailored to their sector of interest.<br>
 ​
-2.Data Filtering:
-The system filters and processes data, isolating the information relevant to the selected industry sector. This ensures that the subsequent visualizations and analysis are focused and pertinent.
+2.Data Filtering:<br>
+The system filters and processes data, isolating the information relevant to the selected industry sector. This ensures that the subsequent visualizations and analysis are focused and pertinent.<br>
 ​
-3.Pie Chart Visualization:
-The core of this section is a sophisticated pie chart. This chart elegantly illustrates the distribution of data breaches within the chosen industry sector.
+3.Pie Chart Visualization:<br>
+The core of this section is a sophisticated pie chart. This chart elegantly illustrates the distribution of data breaches within the chosen industry sector.<br>
 ​
-4.Method of Breach Breakdown:
-The pie chart is segmented into distinct slices, each representing one of the five primary breach methods: Hacked, Lost Device, Poor Security, Accident, and Inside Job.
+4.Method of Breach Breakdown:<br>
+The pie chart is segmented into distinct slices, each representing one of the five primary breach methods: Hacked, Lost Device, Poor Security, Accident, and Inside Job.<br>
 ​
-5.Slice Proportions:
+5.Slice Proportions:<br>
 Slice size directly correlates to the prevalence of each breach method within the selected industry sector. Larger slices indicate a higher frequency of breaches associated with that particular method.
 ​
 ​
-### Bubble chart
+## Bubble chart
 ​
-This section of the dashboard offers users an advanced analytical tool for in-depth exploration of data breaches within specific industry sectors.
+This section of the dashboard offers users an advanced analytical tool for in-depth exploration of data breaches within specific industry sectors.<br>
 ​
-Key Features:
+Key Features:<br>
 ​
-1.Bubble Chart Visualization:
+1.Bubble Chart Visualization:<br>
 ​
-The centerpiece of this section is an advanced bubble chart. This visually appealing chart offers a sophisticated representation of data breach incidents within the selected industry sector.
+The centerpiece of this section is an advanced bubble chart. This visually appealing chart offers a sophisticated representation of data breach incidents within the selected industry sector.<br>
 ​
-2.Bubble Attributes:
+2.Bubble Attributes:<br>
 ​
-Each bubble within the chart encapsulates a wealth of information:
-1.Data Sensitivity: Bubble color is indicative of data sensitivity, allowing users to distinguish between breaches involving highly sensitive data and those of a less sensitive nature.
+Each bubble within the chart encapsulates a wealth of information:<br>
+1.Data Sensitivity: Bubble color is indicative of data sensitivity, allowing users to distinguish between breaches involving highly sensitive data and those of a less sensitive nature.<br>
 ​
-2.Year of Breach: The x-axis position of each bubble corresponds to the year in which the breach occurred, facilitating the examination of trends over time.
+2.Year of Breach: The x-axis position of each bubble corresponds to the year in which the breach occurred, facilitating the examination of trends over time.<br>
 ​
-3.Records Lost: The size of each bubble is directly proportional to the number of records lost during the respective data breach. Larger bubbles represent incidents involving a significant quantity of lost records.
-    
-​
+3.Records Lost: The size of each bubble is directly proportional to the number of records lost during the respective data breach. Larger bubbles represent incidents involving a significant quantity of lost records.<br>
+
+***
+
 ### Part 4
-Taryn
+## Taryn<br>
 ​
-For this section of the dashboard, the user selects an industry sector from the drop down menu and a line chart reflects  the correlation between data breaches over time by the amount of breaches. Secondary, a bar chart reflects the severity of the data breach from 1 - 5 corresponding to the following:
+
+For this section of the dashboard, the user selects an industry sector from the drop down menu and a line chart reflects  the correlation between data breaches over time by the amount of breaches. Secondary, a bar chart reflects the severity of the data breach from 1 - 5 corresponding to the following:<br>
 ​
-    1. Just email address/Online information
-    2. SSN/Personal details
-    3. Credit card information
-    4. Health & other personal records
-    5. Full details
+    1. Just email address/Online information<br>
+    2. SSN/Personal details<br>
+    3. Credit card information<br>
+    4. Health & other personal records<br>
+    5. Full details<br>
 ​
-An example of the line chart showing the erratic changes of data breaches over time in the government industry sector:
+An example of the line chart showing the erratic changes of data breaches over time in the government industry sector:<br>
+
 ​
- <img width="400" alt="image" src="https://github.com/PianoPalf/group-project-3/blob/1c017a0aa6faab3943eb950180abf3e43566b89c/Images/line_gov%20(2).png">
+ <img width="400" alt="image" src="https://github.com/PianoPalf/group-project-3/blob/1c017a0aa6faab3943eb950180abf3e43566b89c/Images/line_gov%20(2).png"><br>
 ​
- An example of the bar chart showing the severity of data sensitivity of breaches by total breaches in the health industry sector, the most breaches are '4' which correlates to 'Health & other personal records':
+ An example of the bar chart showing the severity of data sensitivity of breaches by total breaches in the health industry sector, the most breaches are '4' which correlates to 'Health & other personal records':<br>
 ​
- <img width="400" alt="image" src="https://github.com/PianoPalf/group-project-3/blob/1c017a0aa6faab3943eb950180abf3e43566b89c/Images/bar_health.png">
+ <img width="400" alt="image" src="https://github.com/PianoPalf/group-project-3/blob/1c017a0aa6faab3943eb950180abf3e43566b89c/Images/bar_health.png"><br>
 ​
-__Methodology__
-To create the charts, used the countby function by year and used Lodash countby and the user-selected array. The trace was then set setting x-values as years and y for the number of breaches. We then created the line layout and set the range using Lodash.
+__Methodology__<br>
+To create the charts, used the countby function by year and used Lodash countby and the user-selected array. The trace was then set setting x-values as years and y for the number of breaches. We then created the line layout and set the range using Lodash.<br>
 ​
-For the bar chart we used groupby sensitivity, using ```DatasenseSum``` which adds the groupby objects together. 
+For the bar chart we used groupby sensitivity, using ```DatasenseSum``` which adds the groupby objects together. <br>
 ​
 ***
 ## __Findings and Summary__
