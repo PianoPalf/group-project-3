@@ -117,8 +117,12 @@ function getData(){
     // Print Method Count to console
     console.log('Method Count: ', methodCount)
 
+    // Create an Array containing each sector (unique values)
+    let uniqueMethods = _.uniqBy(data, 'method').map(key => key.method);
+    console.log('Unique Methods: ', uniqueMethods)
+
     // Set Variables for Pie Chart Labels and Values
-    let pie_labels = Object.keys(methodCount)
+    let pie_labels = uniqueMethods
     let pie_values = Object.values(methodCount)
     
     // Set up Pie Chart
@@ -204,12 +208,25 @@ function getData(){
     let uniqueDesc = _.uniqBy(data, 'data_sens_desc').map(key => key.data_sens_desc);
     // Print Unique dSens to console
     console.log('Unique Descriptions: ', uniqueDesc);
-    let dSensDesc = [uniqueDesc[0], uniqueDesc[1], uniqueDesc[3], uniqueDesc[4], uniqueDesc[2]]
+    // Map Data Sensitivty Values to Correct Description
+    let dSensDesc = [[1, uniqueDesc[0]], 
+                     [2, uniqueDesc[1]],
+                     [3, uniqueDesc[3]], 
+                     [4, uniqueDesc[4]],
+                     [5, uniqueDesc[2]]] 
     // Print corrected dSens to console
     console.log('Corrected Descriptions: ', dSensDesc);
 
-    // Create Array of Colors based Data Sensitivity Values
+    // Map Description based Data Sensitivity Values
     // Code adapted from ChatGPT
+    let barDesc = barLabels.map(value => {
+      // Loop through colors to assign color based on value
+      for (let i = 0; i < dSensDesc.length; i++) {
+          if (value <= dSensDesc[i][0]) {
+              return dSensDesc[i][1];}}
+    });
+    
+    // Create Array of Colors based Data Sensitivity Values
     let barColors = barLabels.map(value => {
       // Loop through colors to assign color based on value
       for (let i = 0; i < dSensColors.length; i++) {
@@ -225,7 +242,7 @@ function getData(){
         type: "bar",
         orientation: "h",
         marker: {color: barColors},
-        hovertext: dSensDesc
+        hovertext: barDesc
     };
       
     // Set Bar Chart Data to Trace
