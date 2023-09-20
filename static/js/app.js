@@ -117,7 +117,7 @@ function getData(){
     // Print Method Count to console
     console.log('Method Count: ', methodCount)
 
-    // Create an Array containing each sector (unique values)
+    // Create an Array containing each Method (unique values)
     let uniqueMethods = _.uniqBy(data, 'method').map(key => key.method);
     console.log('Unique Methods: ', uniqueMethods)
 
