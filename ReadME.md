@@ -193,8 +193,8 @@ let barColors = barLabels.map(value => {
   -  https://docs.google.com/spreadsheets/d/1i0oIJJMRG-7t1GT-mr4smaTTU7988yXVz8nPlwaJ8Xk/edit#gid=2
     ​
 - Lodash JS Library: 
-  https://lodash.com/
-  ​
+  - https://lodash.com/
+    ​
 - Flask and MongoDB database creation:
   - https://flask-pymongo.readthedocs.io/en/latest/
   - https://stackoverflow.com/questions/48236087/implementing-mongodb-search-engine-api-in-flask
