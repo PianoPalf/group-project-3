@@ -1,44 +1,26 @@
-/* body {
-    background-image: url('mainframe_background.jpg'); /* Replace with the actual path to your image 
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* Other styles for the body element 
-    font-family: Arial, sans-serif;
-    color: #333;
-} 
-
-/* CSS styles for chart containers */
-/*.chart-container {
-    border: 2px solid #010101;
-    /*padding: 20px;*/
-    /*margin: 10px;
-    background-color: #ffffff;
-    box-shadow: 0 0 5px rgb(251, 251, 251);
-    border-radius: 20px;
-}
-/* Reset default margin and padding for all elements */
 p {
     font-family: 'Helvetica', sans-serif;
     font-style: Light;
-  }
-  h1 {
-    font-weight: lighter; /* Set the font weight to normal (regular) */
-  }
-  /* Apply background color */
-  body {
-     /* Replace with the actual path to your image file */
-    /*background-image: url('mainframe_background.jpg');*/
-    background-color: rgb(225, 227, 227);
-    background-size: cover; /* Adjust as needed */
-    background-repeat: no-repeat; /* Optional, prevents image repetition */
-  }
-  /* Style the jumbotron */
-  .jumbotron {
-    background-color: #176ba0; /* Blue background */
-    color: #fff; /* White text color */
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+body {
+    background-color: #2a2b3d;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jumbotron {
+    background-color: #3b3d56;
+    color: #fff;
     padding: 20px;
     border-radius: 5px;
-  }
-  
+}
 
-  
+.panel-body {
+  background-color: #313348;
+  color: #ffffff;
+}

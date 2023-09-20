@@ -1,6 +1,6 @@
 #################################################
 # Data Breaches API
-#################################################cd
+#################################################
 
 # Import dependencies
 import sqlalchemy
@@ -43,7 +43,6 @@ def welcome():
     return (
         f"Available Routes:<br/>"
         f"/api/v1.0/data_breaches<br/>"
-        # f"/api/v1.0/data_breach_visualisation<br/>"
     )
 
 #################################################
@@ -74,6 +73,8 @@ def data_breaches():
             'sector': row.sector,
             'method': row.method,
             'data_sensitivity': row.data_sensitivity,
+            'data_sens_desc': row.dSens_desc,
+            'story': row.story,
             'source_name': row.source_name,
             'city': row.city,
             'country': row.country,
@@ -91,12 +92,6 @@ def data_breaches():
     
     # JSONify the data and return it
     return response
-
-#################################################
-
-# @app.route("/api/v1.0/data_breach_visualisation")
-# def data_breach_visualisation():
-#     return render_template("index.html")
 
 #################################################
 
