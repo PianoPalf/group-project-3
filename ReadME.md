@@ -8,7 +8,7 @@
 
 A SQLite Database, containing approximately 400 of the largest and most significant Data Breaches in history, pushes data via a Python/Flask API to an Interactive Dashboard created using JavaScript, Lodash (JS library) and Plotly.
 
-![dashboard](Images/dashboard_screenshot.png)
+![dashboard](Dashboard%20Images/dashboard_screenshot.png)
 
 
 ***
