@@ -1,8 +1,7 @@
 # Group Project 3
 ## <i>An in-depth look at the largest Data Breaches since 2005 by Industry/Sector.</i>
-<img width="366" alt="image" src="https://github.com/PianoPalf/group-project-3/blob/2774022396a63db65394b779ccdbe8d4f14657ad/Images/Dashboard Images/computer_mainframe.png"><br>
-![mainframe](Images/computer_mainframe.jpg)
 
+<img width="366" alt="image" src="https://github.com/PianoPalf/group-project-3/blob/69887cfbff8880017cdc93576da3c9088165d1fc/Images/Dashboard%20Images/download.png"><br>
 
 
 ## Dashboard
