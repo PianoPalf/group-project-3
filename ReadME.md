@@ -152,8 +152,18 @@ For the bar chart we used groupby sensitivity, using ```DatasenseSum``` which ad
 ***
 ## __Findings and Summary__
 
+•	The complete dashboard tells a story, created through a thorough data cleansing process, it gives a wholistic view of the biggest databreaches across the globe in the past 2 decades.<br><br>
 
- <img width="321" alt="image" src="https://github.com/">
+•	_Which industry sectors have been most vulnerable to data breaches?_ Where technology impacts nearly every area of our life, it clear that web, tech and healthcare have the most severe and far reaching breaches across the industry sectors.<br><br>
+•	_What are the most common type of data breaches?_ The most common data breaches across the last decade was overwhelmingly by hacking, prior to that lost devices were most common however with organisations increase device security restriction measures, this is less common. Interestingly, in the health sector personal device was the greatest type of data breach.<br><br>
+
+•	_What types of data (data sensitivity) were breached in each sector?_ Each sectors largest data sensitivity breaches involved personal information which corresponded to the industry such as personal health details within the health industry and credit card information in the financial industry and email addresses for tech companies like LinkedIn. <br><br>
+
+•	_How have the method of data breaches changed over time?_ Databreaches have largely moved away from personal devices and hardware to cloud and web based breaches in the last decade, we can see that databreaches due to poor security and inside job are actually much less common than external hacking and lost devices. This indicates a need for increased awareness and security in the web, financial, government and health sectors.<br><br>
+
+These findings can assist in creating areas of focus for data security for organizations and assist in forecasting which security measures to invest in, moving forward. One of the most active markets in data breaches is blackmail so now, more than ever, protecting data and and proactively defending breaches and having a plan B is imperative.
+
+
 
 
 ***
